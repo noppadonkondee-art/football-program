@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Program (15-29 Jan)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a237e;
+            --secondary: #283593;
+            --accent: #d32f2f;
+            --bg: #f4f5f7;
+            --card: #ffffff;
+            --text: #333333;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 20px;
+            color: var(--text);
+            padding-bottom: 50px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            color: var(--primary);
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Filter วันที่ */
+        .date-tabs {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            scrollbar-width: none; /* Firefox */
+        }
+        .date-tabs::-webkit-scrollbar { display: none; /* Chrome */ }
+        
+        .date-tab {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 8px 16px;
+            border-radius: 20px;
+            white-space: nowrap;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .date-tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* การ์ดลีก */
+        .league-section {
+            background: var(--card);
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            animation: fadeIn 0.5s ease;
+        }
+
+        .league-header {
+            background: #fafafa;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .league-logo {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            margin-right: 12px;
+        }
+
+        .league-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .match-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .match-item:last-child { border-bottom: none; }
+
+        .team {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            width: 40%;
+        }
+        .team.home { justify-content: flex-end; text-align: right; }
+        .team.away { justify-content: flex-start; text-align: left; }
+
+        .team img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+            object-fit: contain;
+        }
+        
+        .team-name {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        .match-center {
+            flex: 0 0 90px;
+            text-align: center;
+        }
+        .time-badge {
+            background: #e3f2fd;
+            color: var(--primary);
+            font-size: 15px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        .match-date-small {
+            font-size: 10px;
+            color: #999;
+            margin-top: 4px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* สำหรับมือถือ */
+        @media (max-width: 480px) {
+            .team-name { font-size: 12px; }
+            .team img { width: 24px; height: 24px; margin: 0 5px; }
+            .match-center { flex: 0 0 70px; }
+            .time-badge { font-size: 13px; padding: 3px 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>⚽ ตารางบอล (15-29 ม.ค.)</h1>
+            <div class="subtitle">แสดงข้อมูลครบทุกคู่ตามช่วงเวลา</div>
+        </header>
+
+        <div class="date-tabs" id="date-tabs">
+            </div>
+
+        <div id="schedule-container">
+            </div>
+    </div>
+
+    <script>
+        // =======================================================
+        // 1. ข้อมูลจริงจากไฟล์ JSON ของคุณ (15-21 ม.ค.)
+        // =======================================================
+        const realMatches = [
+            // (ผมใส่ข้อมูล JSON ของคุณที่แก้แล้วไว้ตรงนี้ให้ครบถ้วน)
+            { "league": "Bundesliga", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/18/82.png", "matches": [
+                { "home": "FC Augsburg", "away": "FC Union Berlin", "time": "2026-01-15 19:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/23/1079.png" },
+                { "home": "Werder Bremen", "away": "Eintracht Frankfurt", "time": "2026-01-16 19:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/18/82.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/14/366.png" },
+                { "home": "FC Köln", "away": "FSV Mainz 05", "time": "2026-01-17 14:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/24/3320.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/26/794.png" },
+                { "home": "Borussia Dortmund", "away": "St. Pauli", "time": "2026-01-17 14:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/4/68.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/1/353.png" },
+                { "home": "TSG Hoffenheim", "away": "Bayer 04 Leverkusen", "time": "2026-01-17 14:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/6/2726.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/25/3321.png" },
+                { "home": "RB Leipzig", "away": "FC Bayern München", "time": "2026-01-17 17:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/21/277.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png" },
+                { "home": "VfB Stuttgart", "away": "FC Union Berlin", "time": "2026-01-18 14:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/23/1079.png" }
+            ]},
+            { "league": "Premier League", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png", "matches": [
+                { "home": "Man Utd", "away": "Man City", "time": "2026-01-17 12:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png" },
+                { "home": "Liverpool", "away": "Burnley", "time": "2026-01-17 15:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/27/27.png" },
+                { "home": "Tottenham", "away": "West Ham", "time": "2026-01-17 15:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png" },
+                { "home": "Chelsea", "away": "Brentford", "time": "2026-01-17 15:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/12/236.png" },
+                { "home": "Nottm Forest", "away": "Arsenal", "time": "2026-01-17 17:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/31/63.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png" },
+                { "home": "Wolves", "away": "Newcastle", "time": "2026-01-18 14:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png" },
+                { "home": "Aston Villa", "away": "Everton", "time": "2026-01-18 16:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png" },
+                { "home": "Brighton", "away": "Bournemouth", "time": "2026-01-19 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/14/78.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/20/52.png" }
+            ]},
+            { "league": "La Liga", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png", "matches": [
+                { "home": "Espanyol", "away": "Girona", "time": "2026-01-16 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/16/528.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/7/231.png" },
+                { "home": "Real Madrid", "away": "Levante", "time": "2026-01-17 13:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/1/3457.png" },
+                { "home": "Real Sociedad", "away": "Barcelona", "time": "2026-01-18 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/18/594.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/19/83.png" },
+                { "home": "Elche", "away": "Sevilla", "time": "2026-01-19 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/11/1099.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/4/676.png" }
+            ]},
+            { "league": "Serie A", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/0/384.png", "matches": [
+                { "home": "Como", "away": "AC Milan", "time": "2026-01-15 19:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/12/268.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/17/113.png" },
+                { "home": "Pisa", "away": "Atalanta", "time": "2026-01-16 19:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/16/1072.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png" },
+                { "home": "Udinese", "away": "Inter", "time": "2026-01-17 14:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/26/346.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/18/2930.png" },
+                { "home": "Cagliari", "away": "Juventus", "time": "2026-01-17 19:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/9/585.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png" },
+                { "home": "AC Milan", "away": "Lecce", "time": "2026-01-18 19:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/17/113.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/14/7790.png" },
+                { "home": "Lazio", "away": "Como", "time": "2026-01-19 19:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/11/43.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/12/268.png" }
+            ]},
+            { "league": "Champions League", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/2.png", "matches": [
+                { "home": "Inter", "away": "Arsenal", "time": "2026-01-20 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/18/2930.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png" },
+                { "home": "Tottenham", "away": "Dortmund", "time": "2026-01-20 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/4/68.png" },
+                { "home": "Real Madrid", "away": "Monaco", "time": "2026-01-20 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/5/6789.png" },
+                { "home": "Qarabağ", "away": "Frankfurt", "time": "2026-01-21 17:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/14/366.png" },
+                { "home": "Bayern Munich", "away": "Union SG", "time": "2026-01-21 20:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/11/395.png" }
+            ]}
+        ];
+
+        // =======================================================
+        // 2. ข้อมูลจำลอง (Mock Data) สำหรับวันที่ 22-29 ม.ค.
+        // =======================================================
+        const mockMatches = [
+            // วันที่ 24 (เสาร์)
+            { "league": "Premier League", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png", "matches": [
+                { "home": "Arsenal", "away": "Liverpool", "time": "2026-01-24 19:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png" },
+                { "home": "Man City", "away": "Chelsea", "time": "2026-01-24 22:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png" }
+            ]},
+            { "league": "Bundesliga", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/18/82.png", "matches": [
+                { "home": "Bayern Munich", "away": "Dortmund", "time": "2026-01-24 21:30:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/4/68.png" }
+            ]},
+            // วันที่ 25 (อาทิตย์)
+            { "league": "La Liga", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png", "matches": [
+                { "home": "Barcelona", "away": "Real Madrid", "time": "2026-01-25 03:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/19/83.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png" }
+            ]},
+            { "league": "Serie A", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/0/384.png", "matches": [
+                { "home": "Juventus", "away": "Inter", "time": "2026-01-25 02:45:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/18/2930.png" }
+            ]},
+            // วันที่ 28 (พุธ - บอลถ้วย/ตกค้าง)
+            { "league": "Premier League", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png", "matches": [
+                { "home": "Newcastle", "away": "Spurs", "time": "2026-01-28 03:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png" }
+            ]},
+             // วันที่ 29 (พฤหัส)
+             { "league": "La Liga", "logo": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png", "matches": [
+                { "home": "Atletico Madrid", "away": "Valencia", "time": "2026-01-29 02:00:00", "h_img": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png", "a_img": "https://cdn.sportmonks.com/images/soccer/teams/22/214.png" }
+            ]}
+        ];
+
+        // รวมข้อมูลจริง + จำลอง
+        const allMatchesData = [...realMatches, ...mockMatches];
+
+        // ฟังก์ชันจัดการวันที่และเวลา
+        function getDayMonth(dateStr) {
+            const d = new Date(dateStr);
+            return d.getDate() + ' ' + d.toLocaleDateString('th-TH', { month: 'short' });
+        }
+
+        function formatTime(dateStr) {
+            return new Date(dateStr).toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
+        }
+
+        function renderTabs() {
+            // หาวันที่ที่มีเตะทั้งหมด
+            let dates = new Set();
+            allMatchesData.forEach(league => {
+                league.matches.forEach(m => {
+                    dates.add(new Date(m.time).toDateString());
+                });
+            });
+            
+            // เรียงวันที่
+            let sortedDates = Array.from(dates).sort((a,b) => new Date(a) - new Date(b));
+            
+            const tabsContainer = document.getElementById('date-tabs');
+            let html = '<div class="date-tab active" onclick="filterDate(\'all\', this)">ทั้งหมด</div>';
+            
+            sortedDates.forEach(d => {
+                const dateObj = new Date(d);
+                const dayStr = dateObj.toLocaleDateString('th-TH', { day: 'numeric', month: 'short' });
+                // เก็บค่า value เป็น YYYY-MM-DD เพื่อเทียบง่ายๆ
+                const dateVal = dateObj.toISOString().split('T')[0];
+                html += `<div class="date-tab" onclick="filterDate('${dateVal}', this)">${dayStr}</div>`;
+            });
+
+            tabsContainer.innerHTML = html;
+            renderSchedule('all');
+        }
+
+        function filterDate(dateFilter, element) {
+            // เปลี่ยนสถานะปุ่ม Active
+            document.querySelectorAll('.date-tab').forEach(el => el.classList.remove('active'));
+            if(element) element.classList.add('active');
+
+            renderSchedule(dateFilter);
+        }
+
+        function renderSchedule(dateFilter) {
+            const container = document.getElementById('schedule-container');
+            let html = '';
+            let hasMatch = false;
+
+            allMatchesData.forEach(league => {
+                // กรองแมตช์ตามวันที่เลือก
+                let filteredMatches = league.matches.filter(m => {
+                    if (dateFilter === 'all') return true;
+                    return m.time.startsWith(dateFilter);
+                });
+
+                if (filteredMatches.length === 0) return;
+                
+                hasMatch = true;
+                // เรียงตามเวลา
+                filteredMatches.sort((a,b) => new Date(a.time) - new Date(b.time));
+
+                html += `
+                    <div class="league-section">
+                        <div class="league-header">
+                            <img src="${league.logo}" class="league-logo" onerror="this.src='https://via.placeholder.com/30'">
+                            <div class="league-name">${league.league}</div>
+                        </div>
+                `;
+
+                filteredMatches.forEach(match => {
+                    html += `
+                        <div class="match-item">
+                            <div class="team home">
+                                <div class="team-name">${match.home}</div>
+                                <img src="${match.h_img}" onerror="this.src='https://via.placeholder.com/32'">
+                            </div>
+                            
+                            <div class="match-center">
+                                <div class="time-badge">${formatTime(match.time)}</div>
+                                <div class="match-date-small">${getDayMonth(match.time)}</div>
+                            </div>
+
+                            <div class="team away">
+                                <img src="${match.a_img}" onerror="this.src='https://via.placeholder.com/32'">
+                                <div class="team-name">${match.away}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `</div>`;
+            });
+
+            if (!hasMatch) {
+                html = '<p style="text-align:center; padding:20px; color:#888;">ไม่มีการแข่งขันในวันนี้</p>';
+            }
+
+            container.innerHTML = html;
+        }
+
+        // เริ่มทำงาน
+        renderTabs();
+
+    </script>
+</body>
+</html>
