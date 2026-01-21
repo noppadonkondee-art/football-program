@@ -1,608 +1,608 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>โปรแกรมฟุตบอล 21 ม.ค. - 1 ก.พ. 69</title>
-    <style>
-        body { font-family: 'Sarabun', sans-serif; background: #f0f2f5; margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 0 auto; background: white; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        header { background: #1a73e8; color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100; }
-        h1 { margin: 0; font-size: 1.5rem; }
-        
-        .date-section { 
-            background: #f8f9fa; 
-            color: #202124; 
-            padding: 12px 20px; 
-            font-weight: bold; 
-            border-bottom: 1px solid #ddd;
-            font-size: 1.1rem;
-            position: sticky;
-            top: 70px; /* Adjust based on header height */
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมฟุตบอล 21 ม.ค. - 1 ก.พ. 69</title>
+    <style>
+        body { font-family: 'Sarabun', sans-serif; background: #f0f2f5; margin: 0; padding: 0; }
+        .container { max-width: 800px; margin: 0 auto; background: white; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        header { background: #1a73e8; color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        h1 { margin: 0; font-size: 1.5rem; }
+        
+        .date-section { 
+            background: #f8f9fa; 
+            color: #202124; 
+            padding: 12px 20px; 
+            font-weight: bold; 
+            border-bottom: 1px solid #ddd;
+            font-size: 1.1rem;
+            position: sticky;
+            top: 70px; /* Adjust based on header height */
+        }
 
-        .match-item { 
-            display: flex; 
-            flex-direction: column; /* Stack layout for mobile */
-            padding: 15px 20px; 
-            border-bottom: 1px solid #eee; 
-            transition: background 0.2s;
-        }
-        .match-item:hover { background-color: #f9f9f9; }
+        .match-item { 
+            display: flex; 
+            flex-direction: column; /* Stack layout for mobile */
+            padding: 15px 20px; 
+            border-bottom: 1px solid #eee; 
+            transition: background 0.2s;
+        }
+        .match-item:hover { background-color: #f9f9f9; }
 
-        .league-badge {
-            font-size: 0.75rem;
-            color: #1a73e8;
-            font-weight: bold;
-            margin-bottom: 8px;
-            display: inline-block;
-            background: #e8f0fe;
-            padding: 2px 8px;
-            border-radius: 12px;
-            align-self: flex-start;
-        }
+        .league-badge {
+            font-size: 0.75rem;
+            color: #1a73e8;
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: inline-block;
+            background: #e8f0fe;
+            padding: 2px 8px;
+            border-radius: 12px;
+            align-self: flex-start;
+        }
 
-        .match-content {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
+        .match-content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
 
-        .match-time { 
-            font-weight: bold; 
-            background: #333; 
-            color: #fff;
-            padding: 5px 10px; 
-            border-radius: 6px; 
-            margin-right: 20px; 
-            min-width: 50px; 
-            text-align: center; 
-            font-size: 0.9rem;
-        }
+        .match-time { 
+            font-weight: bold; 
+            background: #333; 
+            color: #fff;
+            padding: 5px 10px; 
+            border-radius: 6px; 
+            margin-right: 20px; 
+            min-width: 50px; 
+            text-align: center; 
+            font-size: 0.9rem;
+        }
 
-        .match-teams { 
-            flex: 1; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-        }
+        .match-teams { 
+            flex: 1; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
 
-        .team { 
-            display: flex; 
-            align-items: center; 
-            flex: 1;
-            font-size: 1rem;
-        }
+        .team { 
+            display: flex; 
+            align-items: center; 
+            flex: 1;
+            font-size: 1rem;
+        }
 
-        .team.home { justify-content: flex-end; text-align: right; }
-        .team.away { justify-content: flex-start; text-align: left; }
-        
-        .team-logo { 
-            width: 35px; 
-            height: 35px; 
-            margin: 0 15px; 
-            object-fit: contain;
-        }
+        .team.home { justify-content: flex-end; text-align: right; }
+        .team.away { justify-content: flex-start; text-align: left; }
+        
+        .team-logo { 
+            width: 35px; 
+            height: 35px; 
+            margin: 0 15px; 
+            object-fit: contain;
+        }
 
-        .vs-text { color: #ccc; font-size: 0.8rem; margin: 0 5px; font-weight: bold; }
+        .vs-text { color: #ccc; font-size: 0.8rem; margin: 0 5px; font-weight: bold; }
 
-    </style>
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header><h1>⚽ โปรแกรมฟุตบอล (21 ม.ค. - 1 ก.พ.)</h1></header>
-        <div id="schedule-list"></div>
-    </div>
+    <div class="container">
+        <header><h1>⚽ โปรแกรมฟุตบอล (21 ม.ค. - 1 ก.พ.)</h1></header>
+        <div id="schedule-list"></div>
+    </div>
 
 <script>
- const myJsonData = [
-  {
-    "id": 2,
-    "sport_id": 1,
-    "country_id": 41,
-    "name": "Champions League",
-    "active": true,
-    "short_code": "UEFA CL",
-    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2.png",
-    "type": "league",
-    "sub_type": "cup_international",
-    "last_played_at": "2026-01-20 20:00:00",
-    "category": 1,
-    "has_jerseys": false,
-    "today": [
-      {
-        "id": 19568575,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 339924,
-        "name": "Qarabağ vs Eintracht Frankfurt",
-        "starting_at": "2026-01-21 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769017500,
-        "scores": [],
-        "participants": [
-          {
-            "id": 5317,
-            "sport_id": 1,
-            "country_id": 2453,
-            "venue_id": 3966,
-            "gender": "male",
-            "name": "Qarabağ",
-            "short_code": "QAR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png",
-            "founded": 1950,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 15:00:00",
-            "meta": { "location": "home", "winner": null, "position": 25 }
-          },
-          {
-            "id": 366,
-            "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 2169,
-            "gender": "male",
-            "name": "Eintracht Frankfurt",
-            "short_code": "SGE",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/366.png",
-            "founded": 1899,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 19:30:00",
-            "meta": { "location": "away", "winner": null, "position": 33 }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "name": "League Stage"
-        },
-        "round": {
-          "id": 388955,
-          "name": "7"
-        }
-      },
-      {
-        "id": 19568523,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 9647,
-        "name": "Galatasaray vs Atlético Madrid",
-        "starting_at": "2026-01-21 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769017500,
-        "scores": [],
-        "participants": [
-          {
-            "id": 34,
-            "sport_id": 1,
-            "country_id": 404,
-            "venue_id": 9647,
-            "gender": "male",
-            "name": "Galatasaray",
-            "short_code": "GAL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
-            "founded": 1905,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 17:00:00",
-            "meta": { "location": "home", "winner": null, "position": 18 }
-          },
-          {
-            "id": 7980,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 140808,
-            "gender": "male",
-            "name": "Atlético Madrid",
-            "short_code": "ATM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png",
-            "founded": 1903,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 15:15:00",
-            "meta": { "location": "away", "winner": null, "position": 10 }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "name": "League Stage"
-        },
-        "round": {
-          "id": 388955,
-          "name": "7"
-        }
-      },
-      {
-        "id": 19568531,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 14742,
-        "name": "Juventus vs Benfica",
-        "starting_at": "2026-01-21 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769025600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 605,
-            "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 138,
-            "gender": "male",
-            "name": "Benfica",
-            "short_code": "SLB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-            "founded": 1904,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 20:30:00",
-            "meta": { "location": "away", "winner": null, "position": 28 }
-          },
-          {
-            "id": 625,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 14742,
-            "gender": "male",
-            "name": "Juventus",
-            "short_code": "JUV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
-            "founded": 1897,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:45:00",
-            "meta": { "location": "home", "winner": null, "position": 17 }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "name": "League Stage"
-        },
-        "round": {
-          "id": 388955,
-          "name": "7"
-        }
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "sport_id": 1,
-    "country_id": 41,
-    "name": "Europa League",
-    "active": true,
-    "short_code": "UEFA EL",
-    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/5.png",
-    "type": "league",
-    "sub_type": "cup_international",
-    "last_played_at": "2025-12-11 20:00:00",
-    "category": 1,
-    "has_jerseys": false,
-    "today": [
-      {
-        "id": 19569078,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 2067,
-        "name": "Viktoria Plzeň vs Porto",
-        "starting_at": "2026-01-22 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769103900,
-        "scores": [],
-        "participants": [
-          {
-            "id": 3545,
-            "sport_id": 1,
-            "country_id": 245,
-            "venue_id": 2067,
-            "gender": "male",
-            "name": "Viktoria Plzeň",
-            "short_code": "VPL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3545.png",
-            "founded": 1911,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-15 14:00:00",
-            "meta": { "location": "home", "winner": null, "position": 14 }
-          },
-          {
-            "id": 652,
-            "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 165,
-            "gender": "male",
-            "name": "Porto",
-            "short_code": "POR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/652.png",
-            "founded": 1893,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 20:30:00",
-            "meta": { "location": "away", "winner": null, "position": 8 }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "name": "League Stage"
-        },
-        "round": {
-          "id": 388962,
-          "name": "7"
-        }
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "sport_id": 1,
-    "country_id": 462,
-    "name": "Premier League",
-    "active": true,
-    "short_code": "UK PL",
-    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
-    "type": "league",
-    "sub_type": "domestic",
-    "last_played_at": "2026-01-19 20:00:00",
-    "category": 1,
-    "has_jerseys": false,
-    "today": [
-      {
-        "id": 19427676,
-        "sport_id": 1,
-        "league_id": 8,
-        "season_id": 25583,
-        "stage_id": 77476879,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 372217,
-        "state_id": 1,
-        "venue_id": 204,
-        "name": "Arsenal vs Manchester United",
-        "starting_at": "2026-01-25 16:30:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769358600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 19,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 204,
-            "gender": "male",
-            "name": "Arsenal",
-            "short_code": "ARS",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png",
-            "founded": 1886,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
-            "meta": { "location": "home", "winner": null, "position": 1 }
-          },
-          {
-            "id": 14,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 206,
-            "gender": "male",
-            "name": "Manchester United",
-            "short_code": "MUN",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png",
-            "founded": 1878,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 12:30:00",
-            "meta": { "location": "away", "winner": null, "position": 5 }
-          }
-        ],
-        "stage": {
-          "id": 77476879,
-          "name": "Regular Season"
-        },
-        "round": {
-          "id": 372217,
-          "name": "23"
-        }
-      }
-    ]
-  },
-  {
-    "id": 564,
-    "sport_id": 1,
-    "country_id": 32,
-    "name": "La Liga",
-    "active": true,
-    "short_code": "ESP PL",
-    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png",
-    "type": "league",
-    "sub_type": "domestic",
-    "last_played_at": "2026-01-19 20:00:00",
-    "category": 1,
-    "has_jerseys": false,
-    "today": [
-        {
-        "id": 19439459,
-        "sport_id": 1,
-        "league_id": 564,
-        "season_id": 25659,
-        "stage_id": 77476930,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 373230,
-        "state_id": 1,
-        "venue_id": 2028,
-        "name": "Villarreal vs Real Madrid",
-        "starting_at": "2026-01-24 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769284800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 3477,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 2028,
-            "gender": "male",
-            "name": "Villarreal",
-            "short_code": "VIL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/3477.png",
-            "founded": 1923,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
-            "meta": { "location": "home", "winner": null, "position": 4 }
-          },
-          {
-            "id": 3468,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 2020,
-            "gender": "male",
-            "name": "Real Madrid",
-            "short_code": "RMA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png",
-            "founded": 1902,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
-            "meta": { "location": "away", "winner": null, "position": 2 }
-          }
-        ],
-        "stage": {
-          "id": 77476930,
-          "name": "Regular Season"
-        },
-        "round": {
-          "id": 373230,
-          "name": "21"
-        }
-      }
-    ]
-  }
- ];
+ const myJsonData = [
+  {
+    "id": 2,
+    "sport_id": 1,
+    "country_id": 41,
+    "name": "Champions League",
+    "active": true,
+    "short_code": "UEFA CL",
+    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/2.png",
+    "type": "league",
+    "sub_type": "cup_international",
+    "last_played_at": "2026-01-20 20:00:00",
+    "category": 1,
+    "has_jerseys": false,
+    "today": [
+      {
+        "id": 19568575,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 339924,
+        "name": "Qarabağ vs Eintracht Frankfurt",
+        "starting_at": "2026-01-21 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769017500,
+        "scores": [],
+        "participants": [
+          {
+            "id": 5317,
+            "sport_id": 1,
+            "country_id": 2453,
+            "venue_id": 3966,
+            "gender": "male",
+            "name": "Qarabağ",
+            "short_code": "QAR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png",
+            "founded": 1950,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 15:00:00",
+            "meta": { "location": "home", "winner": null, "position": 25 }
+          },
+          {
+            "id": 366,
+            "sport_id": 1,
+            "country_id": 11,
+            "venue_id": 2169,
+            "gender": "male",
+            "name": "Eintracht Frankfurt",
+            "short_code": "SGE",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/366.png",
+            "founded": 1899,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 19:30:00",
+            "meta": { "location": "away", "winner": null, "position": 33 }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "name": "League Stage"
+        },
+        "round": {
+          "id": 388955,
+          "name": "7"
+        }
+      },
+      {
+        "id": 19568523,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 9647,
+        "name": "Galatasaray vs Atlético Madrid",
+        "starting_at": "2026-01-21 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769017500,
+        "scores": [],
+        "participants": [
+          {
+            "id": 34,
+            "sport_id": 1,
+            "country_id": 404,
+            "venue_id": 9647,
+            "gender": "male",
+            "name": "Galatasaray",
+            "short_code": "GAL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
+            "founded": 1905,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 17:00:00",
+            "meta": { "location": "home", "winner": null, "position": 18 }
+          },
+          {
+            "id": 7980,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 140808,
+            "gender": "male",
+            "name": "Atlético Madrid",
+            "short_code": "ATM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png",
+            "founded": 1903,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 15:15:00",
+            "meta": { "location": "away", "winner": null, "position": 10 }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "name": "League Stage"
+        },
+        "round": {
+          "id": 388955,
+          "name": "7"
+        }
+      },
+      {
+        "id": 19568531,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 14742,
+        "name": "Juventus vs Benfica",
+        "starting_at": "2026-01-21 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769025600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 605,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 138,
+            "gender": "male",
+            "name": "Benfica",
+            "short_code": "SLB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
+            "founded": 1904,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 20:30:00",
+            "meta": { "location": "away", "winner": null, "position": 28 }
+          },
+          {
+            "id": 625,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 14742,
+            "gender": "male",
+            "name": "Juventus",
+            "short_code": "JUV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
+            "founded": 1897,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 19:45:00",
+            "meta": { "location": "home", "winner": null, "position": 17 }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "name": "League Stage"
+        },
+        "round": {
+          "id": 388955,
+          "name": "7"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "sport_id": 1,
+    "country_id": 41,
+    "name": "Europa League",
+    "active": true,
+    "short_code": "UEFA EL",
+    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/5/5.png",
+    "type": "league",
+    "sub_type": "cup_international",
+    "last_played_at": "2025-12-11 20:00:00",
+    "category": 1,
+    "has_jerseys": false,
+    "today": [
+      {
+        "id": 19569078,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 2067,
+        "name": "Viktoria Plzeň vs Porto",
+        "starting_at": "2026-01-22 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769103900,
+        "scores": [],
+        "participants": [
+          {
+            "id": 3545,
+            "sport_id": 1,
+            "country_id": 245,
+            "venue_id": 2067,
+            "gender": "male",
+            "name": "Viktoria Plzeň",
+            "short_code": "VPL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3545.png",
+            "founded": 1911,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-15 14:00:00",
+            "meta": { "location": "home", "winner": null, "position": 14 }
+          },
+          {
+            "id": 652,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 165,
+            "gender": "male",
+            "name": "Porto",
+            "short_code": "POR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/652.png",
+            "founded": 1893,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 20:30:00",
+            "meta": { "location": "away", "winner": null, "position": 8 }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "name": "League Stage"
+        },
+        "round": {
+          "id": 388962,
+          "name": "7"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "sport_id": 1,
+    "country_id": 462,
+    "name": "Premier League",
+    "active": true,
+    "short_code": "UK PL",
+    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/8/8.png",
+    "type": "league",
+    "sub_type": "domestic",
+    "last_played_at": "2026-01-19 20:00:00",
+    "category": 1,
+    "has_jerseys": false,
+    "today": [
+      {
+        "id": 19427676,
+        "sport_id": 1,
+        "league_id": 8,
+        "season_id": 25583,
+        "stage_id": 77476879,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 372217,
+        "state_id": 1,
+        "venue_id": 204,
+        "name": "Arsenal vs Manchester United",
+        "starting_at": "2026-01-25 16:30:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769358600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 19,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 204,
+            "gender": "male",
+            "name": "Arsenal",
+            "short_code": "ARS",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png",
+            "founded": 1886,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": { "location": "home", "winner": null, "position": 1 }
+          },
+          {
+            "id": 14,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 206,
+            "gender": "male",
+            "name": "Manchester United",
+            "short_code": "MUN",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png",
+            "founded": 1878,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 12:30:00",
+            "meta": { "location": "away", "winner": null, "position": 5 }
+          }
+        ],
+        "stage": {
+          "id": 77476879,
+          "name": "Regular Season"
+        },
+        "round": {
+          "id": 372217,
+          "name": "23"
+        }
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "sport_id": 1,
+    "country_id": 32,
+    "name": "La Liga",
+    "active": true,
+    "short_code": "ESP PL",
+    "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/20/564.png",
+    "type": "league",
+    "sub_type": "domestic",
+    "last_played_at": "2026-01-19 20:00:00",
+    "category": 1,
+    "has_jerseys": false,
+    "today": [
+        {
+        "id": 19439459,
+        "sport_id": 1,
+        "league_id": 564,
+        "season_id": 25659,
+        "stage_id": 77476930,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 373230,
+        "state_id": 1,
+        "venue_id": 2028,
+        "name": "Villarreal vs Real Madrid",
+        "starting_at": "2026-01-24 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769284800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 3477,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 2028,
+            "gender": "male",
+            "name": "Villarreal",
+            "short_code": "VIL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/3477.png",
+            "founded": 1923,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": { "location": "home", "winner": null, "position": 4 }
+          },
+          {
+            "id": 3468,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 2020,
+            "gender": "male",
+            "name": "Real Madrid",
+            "short_code": "RMA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png",
+            "founded": 1902,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": { "location": "away", "winner": null, "position": 2 }
+          }
+        ],
+        "stage": {
+          "id": 77476930,
+          "name": "Regular Season"
+        },
+        "round": {
+          "id": 373230,
+          "name": "21"
+        }
+      }
+    ]
+  }
+ ];
 
-    function renderSchedule() {
-        const container = document.getElementById('schedule-list');
-        if (!myJsonData || myJsonData.length === 0) return;
-        
-        container.innerHTML = ''; 
-        let allMatches = [];
-        
-        // Loop ผ่านทุกลีก
-        myJsonData.forEach(league => {
-            if (league.today) {
-                league.today.forEach(match => {
-                    allMatches.push({
-                        leagueName: league.name, // เก็บชื่อลีก
-                        leagueImage: league.image_path,
-                        date: match.starting_at.split(' ')[0],
-                        time: match.starting_at.split(' ')[1].substring(0, 5),
-                        home: match.participants.find(p => p.meta.location === 'home'),
-                        away: match.participants.find(p => p.meta.location === 'away')
-                    });
-                });
-            }
-        });
+    function renderSchedule() {
+        const container = document.getElementById('schedule-list');
+        if (!myJsonData || myJsonData.length === 0) return;
+        
+        container.innerHTML = ''; 
+        let allMatches = [];
+        
+        // Loop ผ่านทุกลีก
+        myJsonData.forEach(league => {
+            if (league.today) {
+                league.today.forEach(match => {
+                    allMatches.push({
+                        leagueName: league.name, // เก็บชื่อลีก
+                        leagueImage: league.image_path,
+                        date: match.starting_at.split(' ')[0],
+                        time: match.starting_at.split(' ')[1].substring(0, 5),
+                        home: match.participants.find(p => p.meta.location === 'home'),
+                        away: match.participants.find(p => p.meta.location === 'away')
+                    });
+                });
+            }
+        });
 
-        // เรียงตามวันและเวลา
-        allMatches.sort((a, b) => {
-            return a.date.localeCompare(b.date) || a.time.localeCompare(b.time);
-        });
+        // เรียงตามวันและเวลา
+        allMatches.sort((a, b) => {
+            return a.date.localeCompare(b.date) || a.time.localeCompare(b.time);
+        });
 
-        let lastDate = '';
-        allMatches.forEach(m => {
-            // แสดงหัวข้อวันที่
-            if (m.date !== lastDate) {
-                const d = new Date(m.date);
-                const dateOptions = { weekday:'long', day:'numeric', month:'long', year:'numeric'};
-                // ปีพุทธศักราช +543
-                const thaiDate = d.toLocaleDateString('th-TH', dateOptions);
-                container.innerHTML += `<div class="date-section">📅 ${thaiDate}</div>`;
-                lastDate = m.date;
-            }
-            
-            // แสดงรายการแข่งขัน
-            container.innerHTML += `
-                <div class="match-item">
-                    <div class="league-badge">${m.leagueName}</div>
-                    <div class="match-content">
-                        <div class="match-time">${m.time}</div>
-                        <div class="match-teams">
-                            <div class="team home">
-                                <span>${m.home?.name || 'TBA'}</span>
-                                <img src="${m.home?.image_path}" class="team-logo" onerror="this.style.display='none'">
-                            </div>
-                            <div class="vs-text">VS</div>
-                            <div class="team away">
-                                <img src="${m.away?.image_path}" class="team-logo" onerror="this.style.display='none'">
-                                <span>${m.away?.name || 'TBA'}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>`;
-        });
-    }
+        let lastDate = '';
+        allMatches.forEach(m => {
+            // แสดงหัวข้อวันที่
+            if (m.date !== lastDate) {
+                const d = new Date(m.date);
+                const dateOptions = { weekday:'long', day:'numeric', month:'long', year:'numeric'};
+                // ปีพุทธศักราช +543
+                const thaiDate = d.toLocaleDateString('th-TH', dateOptions);
+                container.innerHTML += `<div class="date-section">📅 ${thaiDate}</div>`;
+                lastDate = m.date;
+            }
+            
+            // แสดงรายการแข่งขัน
+            container.innerHTML += `
+                <div class="match-item">
+                    <div class="league-badge">${m.leagueName}</div>
+                    <div class="match-content">
+                        <div class="match-time">${m.time}</div>
+                        <div class="match-teams">
+                            <div class="team home">
+                                <span>${m.home?.name || 'TBA'}</span>
+                                <img src="${m.home?.image_path}" class="team-logo" onerror="this.style.display='none'">
+                            </div>
+                            <div class="vs-text">VS</div>
+                            <div class="team away">
+                                <img src="${m.away?.image_path}" class="team-logo" onerror="this.style.display='none'">
+                                <span>${m.away?.name || 'TBA'}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+        });
+    }
 
-    renderSchedule();
+    renderSchedule();
 </script>
 </body>
 </html>
