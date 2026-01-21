@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": 2,
     "sport_id": 1,
     "country_id": 41,
@@ -12,98 +13,6 @@
     "category": 1,
     "has_jerseys": false,
     "today": [
-      {
-        "id": 19568523,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 9647,
-        "name": "Galatasaray vs Atlético Madrid",
-        "starting_at": "2026-01-21 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769017500,
-        "scores": [],
-        "participants": [
-          {
-            "id": 34,
-            "sport_id": 1,
-            "country_id": 404,
-            "venue_id": 9647,
-            "gender": "male",
-            "name": "Galatasaray",
-            "short_code": "GAL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
-            "founded": 1905,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 17:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 18
-            }
-          },
-          {
-            "id": 7980,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 140808,
-            "gender": "male",
-            "name": "Atlético Madrid",
-            "short_code": "ATM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png",
-            "founded": 1903,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 15:15:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 10
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388955,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-20",
-          "ending_at": "2026-01-21",
-          "games_in_current_week": true
-        }
-      },
       {
         "id": 19568575,
         "sport_id": 1,
@@ -197,7 +106,7 @@
         }
       },
       {
-        "id": 19568473,
+        "id": 19568523,
         "sport_id": 1,
         "league_id": 2,
         "season_id": 25580,
@@ -206,9 +115,9 @@
         "aggregate_id": null,
         "round_id": 388955,
         "state_id": 1,
-        "venue_id": 193,
-        "name": "Atalanta vs Athletic Club",
-        "starting_at": "2026-01-21 20:00:00",
+        "venue_id": 9647,
+        "name": "Galatasaray vs Atlético Madrid",
+        "starting_at": "2026-01-21 17:45:00",
         "result_info": null,
         "leg": "1/1",
         "details": null,
@@ -216,229 +125,137 @@
         "placeholder": false,
         "has_odds": true,
         "has_premium_odds": true,
-        "starting_at_timestamp": 1769025600,
+        "starting_at_timestamp": 1769017500,
         "scores": [],
         "participants": [
           {
-            "id": 13258,
+            "id": 34,
             "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9162,
+            "country_id": 404,
+            "venue_id": 9647,
             "gender": "male",
-            "name": "Athletic Club",
-            "short_code": "ATH",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png",
-            "founded": 1898,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:15:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 32
-            }
-          },
-          {
-            "id": 708,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 193,
-            "gender": "male",
-            "name": "Atalanta",
-            "short_code": "ATA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
-            "founded": 1907,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 19:45:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 8
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388955,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-20",
-          "ending_at": "2026-01-21",
-          "games_in_current_week": true
-        }
-      },
-      {
-        "id": 19568552,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 449,
-        "name": "Newcastle United vs PSV",
-        "starting_at": "2026-01-21 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769025600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 682,
-            "sport_id": 1,
-            "country_id": 38,
-            "venue_id": 181,
-            "gender": "male",
-            "name": "PSV",
-            "short_code": "PSV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/682.png",
-            "founded": 1913,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 21
-            }
-          },
-          {
-            "id": 20,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 449,
-            "gender": "male",
-            "name": "Newcastle United",
-            "short_code": "NEW",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png",
-            "founded": 1892,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 14:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 13
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388955,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-20",
-          "ending_at": "2026-01-21",
-          "games_in_current_week": true
-        }
-      },
-      {
-        "id": 19568505,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 321614,
-        "name": "Chelsea vs Pafos FC",
-        "starting_at": "2026-01-21 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769025600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 18,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 321614,
-            "gender": "male",
-            "name": "Chelsea",
-            "short_code": "CHE",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+            "name": "Galatasaray",
+            "short_code": "GAL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
             "founded": 1905,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 14
-            }
-          },
-          {
-            "id": 8119,
-            "sport_id": 1,
-            "country_id": 116,
-            "venue_id": 136882,
-            "gender": "male",
-            "name": "Pafos FC",
-            "short_code": "PAF",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/8119.png",
-            "founded": 2014,
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-17 17:00:00",
             "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 18
+            }
+          },
+          {
+            "id": 7980,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 140808,
+            "gender": "male",
+            "name": "Atlético Madrid",
+            "short_code": "ATM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png",
+            "founded": 1903,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 15:15:00",
+            "meta": {
               "location": "away",
               "winner": null,
-              "position": 29
+              "position": 10
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388955,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-20",
+          "ending_at": "2026-01-21",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568531,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 14742,
+        "name": "Juventus vs Benfica",
+        "starting_at": "2026-01-21 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769025600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 605,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 138,
+            "gender": "male",
+            "name": "Benfica",
+            "short_code": "SLB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
+            "founded": 1904,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 20:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 28
+            }
+          },
+          {
+            "id": 625,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 14742,
+            "gender": "male",
+            "name": "Juventus",
+            "short_code": "JUV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
+            "founded": 1897,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 19:45:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 17
             }
           }
         ],
@@ -565,98 +382,6 @@
         }
       },
       {
-        "id": 19568586,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388955,
-        "state_id": 1,
-        "venue_id": 5530,
-        "name": "Slavia Praha vs FC Barcelona",
-        "starting_at": "2026-01-21 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769025600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 83,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9236,
-            "gender": "male",
-            "name": "FC Barcelona",
-            "short_code": "BAR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/83.png",
-            "founded": 1899,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 20:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 15
-            }
-          },
-          {
-            "id": 216,
-            "sport_id": 1,
-            "country_id": 245,
-            "venue_id": 5530,
-            "gender": "male",
-            "name": "Slavia Praha",
-            "short_code": "SLA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/216.png",
-            "founded": 1892,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 15:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 34
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388955,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-20",
-          "ending_at": "2026-01-21",
-          "games_in_current_week": true
-        }
-      },
-      {
         "id": 19568517,
         "sport_id": 1,
         "league_id": 2,
@@ -749,7 +474,7 @@
         }
       },
       {
-        "id": 19568531,
+        "id": 19568473,
         "sport_id": 1,
         "league_id": 2,
         "season_id": 25580,
@@ -758,8 +483,8 @@
         "aggregate_id": null,
         "round_id": 388955,
         "state_id": 1,
-        "venue_id": 14742,
-        "name": "Juventus vs Benfica",
+        "venue_id": 193,
+        "name": "Atalanta vs Athletic Club",
         "starting_at": "2026-01-21 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -772,41 +497,317 @@
         "scores": [],
         "participants": [
           {
-            "id": 605,
+            "id": 13258,
             "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 138,
+            "country_id": 32,
+            "venue_id": 9162,
             "gender": "male",
-            "name": "Benfica",
-            "short_code": "SLB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-            "founded": 1904,
+            "name": "Athletic Club",
+            "short_code": "ATH",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png",
+            "founded": 1898,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 20:30:00",
+            "last_played_at": "2026-01-17 15:15:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 28
+              "position": 32
             }
           },
           {
-            "id": 625,
+            "id": 708,
             "sport_id": 1,
             "country_id": 251,
-            "venue_id": 14742,
+            "venue_id": 193,
             "gender": "male",
-            "name": "Juventus",
-            "short_code": "JUV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
-            "founded": 1897,
+            "name": "Atalanta",
+            "short_code": "ATA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
+            "founded": 1907,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 19:45:00",
+            "last_played_at": "2026-01-16 19:45:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 17
+              "position": 8
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388955,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-20",
+          "ending_at": "2026-01-21",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568505,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 321614,
+        "name": "Chelsea vs Pafos FC",
+        "starting_at": "2026-01-21 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769025600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 18,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 321614,
+            "gender": "male",
+            "name": "Chelsea",
+            "short_code": "CHE",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+            "founded": 1905,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 14
+            }
+          },
+          {
+            "id": 8119,
+            "sport_id": 1,
+            "country_id": 116,
+            "venue_id": 136882,
+            "gender": "male",
+            "name": "Pafos FC",
+            "short_code": "PAF",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/8119.png",
+            "founded": 2014,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 17:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 29
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388955,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-20",
+          "ending_at": "2026-01-21",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568586,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 5530,
+        "name": "Slavia Praha vs FC Barcelona",
+        "starting_at": "2026-01-21 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769025600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 83,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 9236,
+            "gender": "male",
+            "name": "FC Barcelona",
+            "short_code": "BAR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/83.png",
+            "founded": 1899,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 20:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 15
+            }
+          },
+          {
+            "id": 216,
+            "sport_id": 1,
+            "country_id": 245,
+            "venue_id": 5530,
+            "gender": "male",
+            "name": "Slavia Praha",
+            "short_code": "SLA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/216.png",
+            "founded": 1892,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 15:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 34
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388955,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-20",
+          "ending_at": "2026-01-21",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568552,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388955,
+        "state_id": 1,
+        "venue_id": 449,
+        "name": "Newcastle United vs PSV",
+        "starting_at": "2026-01-21 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769025600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 682,
+            "sport_id": 1,
+            "country_id": 38,
+            "venue_id": 181,
+            "gender": "male",
+            "name": "PSV",
+            "short_code": "PSV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/682.png",
+            "founded": 1913,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 19:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 21
+            }
+          },
+          {
+            "id": 20,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 449,
+            "gender": "male",
+            "name": "Newcastle United",
+            "short_code": "NEW",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png",
+            "founded": 1892,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 14:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 13
             }
           }
         ],
@@ -840,6 +841,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 5,
@@ -855,190 +857,6 @@
     "category": 1,
     "has_jerseys": false,
     "today": [
-      {
-        "id": 19568951,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 5515,
-        "name": "Bologna vs Celtic",
-        "starting_at": "2026-01-22 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769103900,
-        "scores": [],
-        "participants": [
-          {
-            "id": 53,
-            "sport_id": 1,
-            "country_id": 1161,
-            "venue_id": 8909,
-            "gender": "male",
-            "name": "Celtic",
-            "short_code": "CEL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-            "founded": 1888,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 24
-            }
-          },
-          {
-            "id": 8513,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 5515,
-            "gender": "male",
-            "name": "Bologna",
-            "short_code": "BOL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png",
-            "founded": 1909,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 14:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 13
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388962,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-22",
-          "ending_at": "2026-01-22",
-          "games_in_current_week": true
-        }
-      },
-      {
-        "id": 19568978,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 9695,
-        "name": "Fenerbahçe vs Aston Villa",
-        "starting_at": "2026-01-22 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769103900,
-        "scores": [],
-        "participants": [
-          {
-            "id": 88,
-            "sport_id": 1,
-            "country_id": 404,
-            "venue_id": 9695,
-            "gender": "male",
-            "name": "Fenerbahçe",
-            "short_code": "FEN",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/88.png",
-            "founded": 1907,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 12
-            }
-          },
-          {
-            "id": 15,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 5,
-            "gender": "male",
-            "name": "Aston Villa",
-            "short_code": "AVL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
-            "founded": 1874,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 16:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 3
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388962,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-22",
-          "ending_at": "2026-01-22",
-          "games_in_current_week": true
-        }
-      },
       {
         "id": 19569078,
         "sport_id": 1,
@@ -1132,7 +950,7 @@
         }
       },
       {
-        "id": 19569038,
+        "id": 19568951,
         "sport_id": 1,
         "league_id": 5,
         "season_id": 25582,
@@ -1141,8 +959,8 @@
         "aggregate_id": null,
         "round_id": 388962,
         "state_id": 1,
-        "venue_id": 164,
-        "name": "PAOK vs Real Betis",
+        "venue_id": 5515,
+        "name": "Bologna vs Celtic",
         "starting_at": "2026-01-22 17:45:00",
         "result_info": null,
         "leg": "1/1",
@@ -1155,41 +973,133 @@
         "scores": [],
         "participants": [
           {
-            "id": 485,
+            "id": 53,
             "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 343789,
+            "country_id": 1161,
+            "venue_id": 8909,
             "gender": "male",
-            "name": "Real Betis",
-            "short_code": "BET",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/485.png",
-            "founded": 1907,
+            "name": "Celtic",
+            "short_code": "CEL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+            "founded": 1888,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 20:00:00",
+            "last_played_at": "2026-01-18 17:30:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 4
+              "position": 24
             }
           },
           {
-            "id": 649,
+            "id": 8513,
             "sport_id": 1,
-            "country_id": 125,
-            "venue_id": 164,
+            "country_id": 251,
+            "venue_id": 5515,
             "gender": "male",
-            "name": "PAOK",
-            "short_code": null,
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/649.png",
-            "founded": 1926,
+            "name": "Bologna",
+            "short_code": "BOL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png",
+            "founded": 1909,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 17:00:00",
+            "last_played_at": "2026-01-18 14:00:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 18
+              "position": 13
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388962,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-22",
+          "ending_at": "2026-01-22",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568988,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 1795,
+        "name": "Feyenoord vs Sturm Graz",
+        "starting_at": "2026-01-22 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769103900,
+        "scores": [],
+        "participants": [
+          {
+            "id": 73,
+            "sport_id": 1,
+            "country_id": 38,
+            "venue_id": 1795,
+            "gender": "male",
+            "name": "Feyenoord",
+            "short_code": "FEY",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/73.png",
+            "founded": 1908,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 15:45:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 30
+            }
+          },
+          {
+            "id": 3357,
+            "sport_id": 1,
+            "country_id": 143,
+            "venue_id": 1963,
+            "gender": "male",
+            "name": "Sturm Graz",
+            "short_code": "STU",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/3357.png",
+            "founded": 1909,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-14 15:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 29
             }
           }
         ],
@@ -1408,98 +1318,6 @@
         }
       },
       {
-        "id": 19568988,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 1795,
-        "name": "Feyenoord vs Sturm Graz",
-        "starting_at": "2026-01-22 17:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769103900,
-        "scores": [],
-        "participants": [
-          {
-            "id": 73,
-            "sport_id": 1,
-            "country_id": 38,
-            "venue_id": 1795,
-            "gender": "male",
-            "name": "Feyenoord",
-            "short_code": "FEY",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/73.png",
-            "founded": 1908,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 15:45:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 30
-            }
-          },
-          {
-            "id": 3357,
-            "sport_id": 1,
-            "country_id": 143,
-            "venue_id": 1963,
-            "gender": "male",
-            "name": "Sturm Graz",
-            "short_code": "STU",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/3357.png",
-            "founded": 1909,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-14 15:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 29
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388962,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-22",
-          "ending_at": "2026-01-22",
-          "games_in_current_week": true
-        }
-      },
-      {
         "id": 19569019,
         "sport_id": 1,
         "league_id": 5,
@@ -1558,6 +1376,190 @@
               "location": "away",
               "winner": null,
               "position": 17
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388962,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-22",
+          "ending_at": "2026-01-22",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19569038,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 164,
+        "name": "PAOK vs Real Betis",
+        "starting_at": "2026-01-22 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769103900,
+        "scores": [],
+        "participants": [
+          {
+            "id": 485,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 343789,
+            "gender": "male",
+            "name": "Real Betis",
+            "short_code": "BET",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/485.png",
+            "founded": 1907,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 20:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 4
+            }
+          },
+          {
+            "id": 649,
+            "sport_id": 1,
+            "country_id": 125,
+            "venue_id": 164,
+            "gender": "male",
+            "name": "PAOK",
+            "short_code": null,
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/649.png",
+            "founded": 1926,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 18
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388962,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-22",
+          "ending_at": "2026-01-22",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19568978,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 9695,
+        "name": "Fenerbahçe vs Aston Villa",
+        "starting_at": "2026-01-22 17:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769103900,
+        "scores": [],
+        "participants": [
+          {
+            "id": 88,
+            "sport_id": 1,
+            "country_id": 404,
+            "venue_id": 9695,
+            "gender": "male",
+            "name": "Fenerbahçe",
+            "short_code": "FEN",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/88.png",
+            "founded": 1907,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 12
+            }
+          },
+          {
+            "id": 15,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 5,
+            "gender": "male",
+            "name": "Aston Villa",
+            "short_code": "AVL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
+            "founded": 1874,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 16:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 3
             }
           }
         ],
@@ -1684,98 +1686,6 @@
         }
       },
       {
-        "id": 19569072,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 313,
-        "name": "Sporting Braga vs Nottingham Forest",
-        "starting_at": "2026-01-22 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769112000,
-        "scores": [],
-        "participants": [
-          {
-            "id": 884,
-            "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 313,
-            "gender": "male",
-            "name": "Sporting Braga",
-            "short_code": "SBR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/884.png",
-            "founded": 1921,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 18:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 7
-            }
-          },
-          {
-            "id": 63,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 542,
-            "gender": "male",
-            "name": "Nottingham Forest",
-            "short_code": "NFO",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/63.png",
-            "founded": 1865,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 17:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 11
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388962,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-22",
-          "ending_at": "2026-01-22",
-          "games_in_current_week": true
-        }
-      },
-      {
         "id": 19568954,
         "sport_id": 1,
         "league_id": 5,
@@ -1834,6 +1744,98 @@
               "location": "home",
               "winner": null,
               "position": 19
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388962,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-22",
+          "ending_at": "2026-01-22",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19569072,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 313,
+        "name": "Sporting Braga vs Nottingham Forest",
+        "starting_at": "2026-01-22 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769112000,
+        "scores": [],
+        "participants": [
+          {
+            "id": 884,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 313,
+            "gender": "male",
+            "name": "Sporting Braga",
+            "short_code": "SBR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/884.png",
+            "founded": 1921,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 18:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 7
+            }
+          },
+          {
+            "id": 63,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 542,
+            "gender": "male",
+            "name": "Nottingham Forest",
+            "short_code": "NFO",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/63.png",
+            "founded": 1865,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 17:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 11
             }
           }
         ],
@@ -1960,7 +1962,7 @@
         }
       },
       {
-        "id": 19568977,
+        "id": 19569057,
         "sport_id": 1,
         "league_id": 5,
         "season_id": 25582,
@@ -1969,8 +1971,8 @@
         "aggregate_id": null,
         "round_id": 388962,
         "state_id": 1,
-        "venue_id": 227,
-        "name": "FC Utrecht vs Genk",
+        "venue_id": 7189,
+        "name": "Roma vs VfB Stuttgart",
         "starting_at": "2026-01-22 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -1983,41 +1985,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 750,
+            "id": 3319,
             "sport_id": 1,
-            "country_id": 38,
-            "venue_id": 227,
+            "country_id": 11,
+            "venue_id": 1945,
             "gender": "male",
-            "name": "FC Utrecht",
-            "short_code": "UTR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/750.png",
-            "founded": 1970,
+            "name": "VfB Stuttgart",
+            "short_code": "VFB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png",
+            "founded": 1893,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 13:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 32
-            }
-          },
-          {
-            "id": 2709,
-            "sport_id": 1,
-            "country_id": 556,
-            "venue_id": 1611,
-            "gender": "male",
-            "name": "Genk",
-            "short_code": "GNK",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/2709.png",
-            "founded": 1988,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
+            "last_played_at": "2026-01-18 14:30:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 16
+              "position": 9
+            }
+          },
+          {
+            "id": 37,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 7189,
+            "gender": "male",
+            "name": "Roma",
+            "short_code": "ROM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/37.png",
+            "founded": 1927,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 10
             }
           }
         ],
@@ -2236,6 +2238,98 @@
         }
       },
       {
+        "id": 19568977,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388962,
+        "state_id": 1,
+        "venue_id": 227,
+        "name": "FC Utrecht vs Genk",
+        "starting_at": "2026-01-22 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769112000,
+        "scores": [],
+        "participants": [
+          {
+            "id": 750,
+            "sport_id": 1,
+            "country_id": 38,
+            "venue_id": 227,
+            "gender": "male",
+            "name": "FC Utrecht",
+            "short_code": "UTR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/750.png",
+            "founded": 1970,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 13:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 32
+            }
+          },
+          {
+            "id": 2709,
+            "sport_id": 1,
+            "country_id": 556,
+            "venue_id": 1611,
+            "gender": "male",
+            "name": "Genk",
+            "short_code": "GNK",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/2709.png",
+            "founded": 1988,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 16
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388962,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "7",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-22",
+          "ending_at": "2026-01-22",
+          "games_in_current_week": true
+        }
+      },
+      {
         "id": 19569044,
         "sport_id": 1,
         "league_id": 5,
@@ -2294,98 +2388,6 @@
               "location": "away",
               "winner": null,
               "position": 23
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388962,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "7",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-22",
-          "ending_at": "2026-01-22",
-          "games_in_current_week": true
-        }
-      },
-      {
-        "id": 19569057,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388962,
-        "state_id": 1,
-        "venue_id": 7189,
-        "name": "Roma vs VfB Stuttgart",
-        "starting_at": "2026-01-22 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769112000,
-        "scores": [],
-        "participants": [
-          {
-            "id": 3319,
-            "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 1945,
-            "gender": "male",
-            "name": "VfB Stuttgart",
-            "short_code": "VFB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png",
-            "founded": 1893,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 14:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 9
-            }
-          },
-          {
-            "id": 37,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 7189,
-            "gender": "male",
-            "name": "Roma",
-            "short_code": "ROM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/37.png",
-            "founded": 1927,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 10
             }
           }
         ],
@@ -2511,6 +2513,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 564,
@@ -2834,6 +2837,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 8,
@@ -2942,7 +2946,7 @@
         }
       },
       {
-        "id": 19427679,
+        "id": 19427683,
         "sport_id": 1,
         "league_id": 8,
         "season_id": 25583,
@@ -2951,8 +2955,8 @@
         "aggregate_id": null,
         "round_id": 372217,
         "state_id": 1,
-        "venue_id": 200,
-        "name": "Burnley vs Tottenham Hotspur",
+        "venue_id": 151,
+        "name": "Manchester City vs Wolverhampton Wanderers",
         "starting_at": "2026-01-24 15:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -2965,41 +2969,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 27,
+            "id": 9,
             "sport_id": 1,
             "country_id": 462,
-            "venue_id": 200,
+            "venue_id": 151,
             "gender": "male",
-            "name": "Burnley",
-            "short_code": "BUR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/27.png",
-            "founded": 1882,
+            "name": "Manchester City",
+            "short_code": "MCI",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+            "founded": 1880,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
+            "last_played_at": "2026-01-20 17:45:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 19
+              "position": 2
             }
           },
           {
-            "id": 6,
+            "id": 29,
             "sport_id": 1,
             "country_id": 462,
-            "venue_id": 281313,
+            "venue_id": 492,
             "gender": "male",
-            "name": "Tottenham Hotspur",
-            "short_code": "TOT",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
-            "founded": 1882,
+            "name": "Wolverhampton Wanderers",
+            "short_code": "WOL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png",
+            "founded": 1877,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
+            "last_played_at": "2026-01-18 14:00:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 14
+              "position": 20
             }
           }
         ],
@@ -3126,7 +3130,7 @@
         }
       },
       {
-        "id": 19427683,
+        "id": 19427679,
         "sport_id": 1,
         "league_id": 8,
         "season_id": 25583,
@@ -3135,8 +3139,8 @@
         "aggregate_id": null,
         "round_id": 372217,
         "state_id": 1,
-        "venue_id": 151,
-        "name": "Manchester City vs Wolverhampton Wanderers",
+        "venue_id": 200,
+        "name": "Burnley vs Tottenham Hotspur",
         "starting_at": "2026-01-24 15:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -3149,41 +3153,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 9,
+            "id": 27,
             "sport_id": 1,
             "country_id": 462,
-            "venue_id": 151,
+            "venue_id": 200,
             "gender": "male",
-            "name": "Manchester City",
-            "short_code": "MCI",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
-            "founded": 1880,
+            "name": "Burnley",
+            "short_code": "BUR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/27/27.png",
+            "founded": 1882,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 17:45:00",
+            "last_played_at": "2026-01-17 15:00:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 2
+              "position": 19
             }
           },
           {
-            "id": 29,
+            "id": 6,
             "sport_id": 1,
             "country_id": 462,
-            "venue_id": 492,
+            "venue_id": 281313,
             "gender": "male",
-            "name": "Wolverhampton Wanderers",
-            "short_code": "WOL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png",
-            "founded": 1877,
+            "name": "Tottenham Hotspur",
+            "short_code": "TOT",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+            "founded": 1882,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 14:00:00",
+            "last_played_at": "2026-01-20 20:00:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 20
+              "position": 14
             }
           }
         ],
@@ -3802,7 +3806,7 @@
         }
       },
       {
-        "id": 19433640,
+        "id": 19433643,
         "sport_id": 1,
         "league_id": 82,
         "season_id": 25646,
@@ -3811,8 +3815,8 @@
         "aggregate_id": null,
         "round_id": 393437,
         "state_id": 1,
-        "venue_id": 1947,
-        "name": "Bayer 04 Leverkusen vs Werder Bremen",
+        "venue_id": 53,
+        "name": "FC Bayern München vs FC Augsburg",
         "starting_at": "2026-01-24 14:30:00",
         "result_info": null,
         "leg": "1/1",
@@ -3825,41 +3829,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 3321,
+            "id": 503,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 1947,
+            "venue_id": 53,
             "gender": "male",
-            "name": "Bayer 04 Leverkusen",
-            "short_code": "B04",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3321.png",
-            "founded": 1904,
+            "name": "FC Bayern München",
+            "short_code": "FCB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png",
+            "founded": 1900,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
+            "last_played_at": "2026-01-17 17:30:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 6
+              "position": 1
             }
           },
           {
-            "id": 82,
+            "id": 90,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 2172,
+            "venue_id": 2165,
             "gender": "male",
-            "name": "Werder Bremen",
-            "short_code": "SVW",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/82.png",
-            "founded": 1899,
+            "name": "FC Augsburg",
+            "short_code": "FCA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png",
+            "founded": 1907,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-16 19:30:00",
+            "last_played_at": "2026-01-18 16:30:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 13
+              "position": 15
             }
           }
         ],
@@ -3986,7 +3990,7 @@
         }
       },
       {
-        "id": 19433643,
+        "id": 19433640,
         "sport_id": 1,
         "league_id": 82,
         "season_id": 25646,
@@ -3995,8 +3999,8 @@
         "aggregate_id": null,
         "round_id": 393437,
         "state_id": 1,
-        "venue_id": 53,
-        "name": "FC Bayern München vs FC Augsburg",
+        "venue_id": 1947,
+        "name": "Bayer 04 Leverkusen vs Werder Bremen",
         "starting_at": "2026-01-24 14:30:00",
         "result_info": null,
         "leg": "1/1",
@@ -4009,41 +4013,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 503,
+            "id": 3321,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 53,
+            "venue_id": 1947,
             "gender": "male",
-            "name": "FC Bayern München",
-            "short_code": "FCB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png",
-            "founded": 1900,
+            "name": "Bayer 04 Leverkusen",
+            "short_code": "B04",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3321.png",
+            "founded": 1904,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 17:30:00",
+            "last_played_at": "2026-01-20 20:00:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 1
+              "position": 6
             }
           },
           {
-            "id": 90,
+            "id": 82,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 2165,
+            "venue_id": 2172,
             "gender": "male",
-            "name": "FC Augsburg",
-            "short_code": "FCA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png",
-            "founded": 1907,
+            "name": "Werder Bremen",
+            "short_code": "SVW",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/82.png",
+            "founded": 1899,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 16:30:00",
+            "last_played_at": "2026-01-16 19:30:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 15
+              "position": 13
             }
           }
         ],
@@ -4553,6 +4557,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 8,
@@ -4568,98 +4573,6 @@
     "category": 1,
     "has_jerseys": false,
     "today": [
-      {
-        "id": 19427680,
-        "sport_id": 1,
-        "league_id": 8,
-        "season_id": 25583,
-        "stage_id": 77476879,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 372217,
-        "state_id": 1,
-        "venue_id": 201,
-        "name": "Crystal Palace vs Chelsea",
-        "starting_at": "2026-01-25 14:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769349600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 18,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 321614,
-            "gender": "male",
-            "name": "Chelsea",
-            "short_code": "CHE",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
-            "founded": 1905,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 6
-            }
-          },
-          {
-            "id": 51,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 201,
-            "gender": "male",
-            "name": "Crystal Palace",
-            "short_code": "CRY",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/51.png",
-            "founded": 1905,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 13
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476879,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-15",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 372217,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "stage_id": 77476879,
-          "name": "23",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-24",
-          "ending_at": "2026-01-26",
-          "games_in_current_week": true
-        }
-      },
       {
         "id": 19427678,
         "sport_id": 1,
@@ -4719,6 +4632,98 @@
               "location": "home",
               "winner": null,
               "position": 7
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476879,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-15",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 372217,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "stage_id": 77476879,
+          "name": "23",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-24",
+          "ending_at": "2026-01-26",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19427680,
+        "sport_id": 1,
+        "league_id": 8,
+        "season_id": 25583,
+        "stage_id": 77476879,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 372217,
+        "state_id": 1,
+        "venue_id": 201,
+        "name": "Crystal Palace vs Chelsea",
+        "starting_at": "2026-01-25 14:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769349600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 18,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 321614,
+            "gender": "male",
+            "name": "Chelsea",
+            "short_code": "CHE",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+            "founded": 1905,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 6
+            }
+          },
+          {
+            "id": 51,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 201,
+            "gender": "male",
+            "name": "Crystal Palace",
+            "short_code": "CRY",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/19/51.png",
+            "founded": 1905,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 13
             }
           }
         ],
@@ -5629,98 +5634,6 @@
         }
       },
       {
-        "id": 19425091,
-        "sport_id": 1,
-        "league_id": 384,
-        "season_id": 25533,
-        "stage_id": 77476851,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 371870,
-        "state_id": 1,
-        "venue_id": 193,
-        "name": "Atalanta vs Parma",
-        "starting_at": "2026-01-25 14:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769349600,
-        "scores": [],
-        "participants": [
-          {
-            "id": 398,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 7175,
-            "gender": "male",
-            "name": "Parma",
-            "short_code": "PRM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/398.png",
-            "founded": 1913,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 11:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 12
-            }
-          },
-          {
-            "id": 708,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 193,
-            "gender": "male",
-            "name": "Atalanta",
-            "short_code": "ATA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
-            "founded": 1907,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 19:45:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 7
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476851,
-          "sport_id": 1,
-          "league_id": 384,
-          "season_id": 25533,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-23",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 371870,
-          "sport_id": 1,
-          "league_id": 384,
-          "season_id": 25533,
-          "stage_id": 77476851,
-          "name": "22",
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2026-01-23",
-          "ending_at": "2026-01-26",
-          "games_in_current_week": true
-        }
-      },
-      {
         "id": 19425094,
         "sport_id": 1,
         "league_id": 384,
@@ -5779,6 +5692,98 @@
               "location": "away",
               "winner": null,
               "position": 8
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476851,
+          "sport_id": 1,
+          "league_id": 384,
+          "season_id": 25533,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-23",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 371870,
+          "sport_id": 1,
+          "league_id": 384,
+          "season_id": 25533,
+          "stage_id": 77476851,
+          "name": "22",
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2026-01-23",
+          "ending_at": "2026-01-26",
+          "games_in_current_week": true
+        }
+      },
+      {
+        "id": 19425091,
+        "sport_id": 1,
+        "league_id": 384,
+        "season_id": 25533,
+        "stage_id": 77476851,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 371870,
+        "state_id": 1,
+        "venue_id": 193,
+        "name": "Atalanta vs Parma",
+        "starting_at": "2026-01-25 14:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769349600,
+        "scores": [],
+        "participants": [
+          {
+            "id": 398,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 7175,
+            "gender": "male",
+            "name": "Parma",
+            "short_code": "PRM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/398.png",
+            "founded": 1913,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 11:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 12
+            }
+          },
+          {
+            "id": 708,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 193,
+            "gender": "male",
+            "name": "Atalanta",
+            "short_code": "ATA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
+            "founded": 1907,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 19:45:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 7
             }
           }
         ],
@@ -5996,6 +6001,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 8,
@@ -6319,6 +6325,7 @@
           "games_in_current_week": true
         }
       }
+    ]
 [
   {
     "id": 82,
@@ -6517,7 +6524,9 @@
           "ending_at": "2026-01-27",
           "games_in_current_week": false
         }
-      [
+      }
+    ]
+[
   {
     "id": 2,
     "sport_id": 1,
@@ -6587,190 +6596,6 @@
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-20 20:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388956,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-28",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19568476,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388956,
-        "state_id": 1,
-        "venue_id": 9162,
-        "name": "Athletic Club vs Sporting CP",
-        "starting_at": "2026-01-28 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769630400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 13258,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9162,
-            "gender": "male",
-            "name": "Athletic Club",
-            "short_code": "ATH",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png",
-            "founded": 1898,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:15:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 58,
-            "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 8323,
-            "gender": "male",
-            "name": "Sporting CP",
-            "short_code": "SCP",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/58.png",
-            "founded": 1906,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388956,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-28",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19568541,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388956,
-        "state_id": 1,
-        "venue_id": 230,
-        "name": "Liverpool vs Qarabağ",
-        "starting_at": "2026-01-28 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769630400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 8,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 230,
-            "gender": "male",
-            "name": "Liverpool",
-            "short_code": "LIV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
-            "founded": 1892,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 5317,
-            "sport_id": 1,
-            "country_id": 2453,
-            "venue_id": 3966,
-            "gender": "male",
-            "name": "Qarabağ",
-            "short_code": "QAR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png",
-            "founded": 1950,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 15:00:00",
             "meta": {
               "location": "away",
               "winner": null,
@@ -6993,6 +6818,98 @@
         }
       },
       {
+        "id": 19568508,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388956,
+        "state_id": 1,
+        "venue_id": 1572,
+        "name": "Club Brugge vs Olympique Marseille",
+        "starting_at": "2026-01-28 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769630400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 340,
+            "sport_id": 1,
+            "country_id": 556,
+            "venue_id": 1572,
+            "gender": "male",
+            "name": "Club Brugge",
+            "short_code": "BRU",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/340.png",
+            "founded": 1891,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 15:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 44,
+            "sport_id": 1,
+            "country_id": 17,
+            "venue_id": 6159,
+            "gender": "male",
+            "name": "Olympique Marseille",
+            "short_code": "OM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/44.png",
+            "founded": 1899,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 20:05:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388956,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-28",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false
+        }
+      },
+      {
         "id": 19568480,
         "sport_id": 1,
         "league_id": 2,
@@ -7085,7 +7002,7 @@
         }
       },
       {
-        "id": 19568545,
+        "id": 19568583,
         "sport_id": 1,
         "league_id": 2,
         "season_id": 25580,
@@ -7094,8 +7011,8 @@
         "aggregate_id": null,
         "round_id": 388956,
         "state_id": 1,
-        "venue_id": 151,
-        "name": "Manchester City vs Galatasaray",
+        "venue_id": 1528,
+        "name": "Union Saint-Gilloise vs Atalanta",
         "starting_at": "2026-01-28 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -7108,39 +7025,39 @@
         "scores": [],
         "participants": [
           {
-            "id": 34,
+            "id": 3958,
             "sport_id": 1,
-            "country_id": 404,
-            "venue_id": 9647,
+            "country_id": 556,
+            "venue_id": 4721,
             "gender": "male",
-            "name": "Galatasaray",
-            "short_code": "GAL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
-            "founded": 1905,
+            "name": "Union Saint-Gilloise",
+            "short_code": "USG",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/3958.png",
+            "founded": 1897,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 17:00:00",
+            "last_played_at": "2026-01-17 19:45:00",
             "meta": {
-              "location": "away",
+              "location": "home",
               "winner": null,
               "position": null
             }
           },
           {
-            "id": 9,
+            "id": 708,
             "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 151,
+            "country_id": 251,
+            "venue_id": 193,
             "gender": "male",
-            "name": "Manchester City",
-            "short_code": "MCI",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
-            "founded": 1880,
+            "name": "Atalanta",
+            "short_code": "ATA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
+            "founded": 1907,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 17:45:00",
+            "last_played_at": "2026-01-16 19:45:00",
             "meta": {
-              "location": "home",
+              "location": "away",
               "winner": null,
               "position": null
             }
@@ -7177,7 +7094,7 @@
         }
       },
       {
-        "id": 19568508,
+        "id": 19568570,
         "sport_id": 1,
         "league_id": 2,
         "season_id": 25580,
@@ -7186,8 +7103,8 @@
         "aggregate_id": null,
         "round_id": 388956,
         "state_id": 1,
-        "venue_id": 1572,
-        "name": "Club Brugge vs Olympique Marseille",
+        "venue_id": 181,
+        "name": "PSV vs FC Bayern München",
         "starting_at": "2026-01-28 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -7200,18 +7117,18 @@
         "scores": [],
         "participants": [
           {
-            "id": 340,
+            "id": 682,
             "sport_id": 1,
-            "country_id": 556,
-            "venue_id": 1572,
+            "country_id": 38,
+            "venue_id": 181,
             "gender": "male",
-            "name": "Club Brugge",
-            "short_code": "BRU",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/340.png",
-            "founded": 1891,
+            "name": "PSV",
+            "short_code": "PSV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/682.png",
+            "founded": 1913,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 15:30:00",
+            "last_played_at": "2026-01-17 19:00:00",
             "meta": {
               "location": "home",
               "winner": null,
@@ -7219,18 +7136,202 @@
             }
           },
           {
-            "id": 44,
+            "id": 503,
             "sport_id": 1,
-            "country_id": 17,
-            "venue_id": 6159,
+            "country_id": 11,
+            "venue_id": 53,
             "gender": "male",
-            "name": "Olympique Marseille",
-            "short_code": "OM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/44.png",
-            "founded": 1899,
+            "name": "FC Bayern München",
+            "short_code": "FCB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png",
+            "founded": 1900,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 20:05:00",
+            "last_played_at": "2026-01-17 17:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388956,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-28",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19568476,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388956,
+        "state_id": 1,
+        "venue_id": 9162,
+        "name": "Athletic Club vs Sporting CP",
+        "starting_at": "2026-01-28 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769630400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 13258,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 9162,
+            "gender": "male",
+            "name": "Athletic Club",
+            "short_code": "ATH",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png",
+            "founded": 1898,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:15:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 58,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 8323,
+            "gender": "male",
+            "name": "Sporting CP",
+            "short_code": "SCP",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/58.png",
+            "founded": 1906,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388956,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-28",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19568541,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388956,
+        "state_id": 1,
+        "venue_id": 230,
+        "name": "Liverpool vs Qarabağ",
+        "starting_at": "2026-01-28 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769630400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 8,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 230,
+            "gender": "male",
+            "name": "Liverpool",
+            "short_code": "LIV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+            "founded": 1892,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 5317,
+            "sport_id": 1,
+            "country_id": 2453,
+            "venue_id": 3966,
+            "gender": "male",
+            "name": "Qarabağ",
+            "short_code": "QAR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/5317.png",
+            "founded": 1950,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 15:00:00",
             "meta": {
               "location": "away",
               "winner": null,
@@ -7361,98 +7462,6 @@
         }
       },
       {
-        "id": 19568583,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388956,
-        "state_id": 1,
-        "venue_id": 1528,
-        "name": "Union Saint-Gilloise vs Atalanta",
-        "starting_at": "2026-01-28 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769630400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 3958,
-            "sport_id": 1,
-            "country_id": 556,
-            "venue_id": 4721,
-            "gender": "male",
-            "name": "Union Saint-Gilloise",
-            "short_code": "USG",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/22/3958.png",
-            "founded": 1897,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:45:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 708,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 193,
-            "gender": "male",
-            "name": "Atalanta",
-            "short_code": "ATA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/708.png",
-            "founded": 1907,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 19:45:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388956,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-28",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false
-        }
-      },
-      {
         "id": 19568546,
         "sport_id": 1,
         "league_id": 2,
@@ -7507,6 +7516,98 @@
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-20 20:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478049,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-16",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388956,
+          "sport_id": 1,
+          "league_id": 2,
+          "season_id": 25580,
+          "stage_id": 77478049,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-28",
+          "ending_at": "2026-01-28",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19568545,
+        "sport_id": 1,
+        "league_id": 2,
+        "season_id": 25580,
+        "stage_id": 77478049,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388956,
+        "state_id": 1,
+        "venue_id": 151,
+        "name": "Manchester City vs Galatasaray",
+        "starting_at": "2026-01-28 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769630400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 34,
+            "sport_id": 1,
+            "country_id": 404,
+            "venue_id": 9647,
+            "gender": "male",
+            "name": "Galatasaray",
+            "short_code": "GAL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/2/34.png",
+            "founded": 1905,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 17:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 9,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 151,
+            "gender": "male",
+            "name": "Manchester City",
+            "short_code": "MCI",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+            "founded": 1880,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 17:45:00",
             "meta": {
               "location": "home",
               "winner": null,
@@ -7821,98 +7922,6 @@
         }
       },
       {
-        "id": 19568570,
-        "sport_id": 1,
-        "league_id": 2,
-        "season_id": 25580,
-        "stage_id": 77478049,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388956,
-        "state_id": 1,
-        "venue_id": 181,
-        "name": "PSV vs FC Bayern München",
-        "starting_at": "2026-01-28 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769630400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 682,
-            "sport_id": 1,
-            "country_id": 38,
-            "venue_id": 181,
-            "gender": "male",
-            "name": "PSV",
-            "short_code": "PSV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/682.png",
-            "founded": 1913,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 503,
-            "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 53,
-            "gender": "male",
-            "name": "FC Bayern München",
-            "short_code": "FCB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/503.png",
-            "founded": 1900,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 17:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478049,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-16",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388956,
-          "sport_id": 1,
-          "league_id": 2,
-          "season_id": 25580,
-          "stage_id": 77478049,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-28",
-          "ending_at": "2026-01-28",
-          "games_in_current_week": false
-        }
-      },
-      {
         "id": 19568490,
         "sport_id": 1,
         "league_id": 2,
@@ -8188,6 +8197,7 @@
           "games_in_current_week": false
         }
       }
+    ]
 [
   {
     "id": 5,
@@ -8388,98 +8398,6 @@
         }
       },
       {
-        "id": 19568993,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388963,
-        "state_id": 1,
-        "venue_id": 1590,
-        "name": "Crvena Zvezda vs Celta de Vigo",
-        "starting_at": "2026-01-29 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": false,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769716800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 2673,
-            "sport_id": 1,
-            "country_id": 296,
-            "venue_id": 1590,
-            "gender": "male",
-            "name": "Crvena Zvezda",
-            "short_code": "CRV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/2673.png",
-            "founded": 1945,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-15 14:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 36,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9239,
-            "gender": "male",
-            "name": "Celta de Vigo",
-            "short_code": "CEL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
-            "founded": 1923,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388963,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-29",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false
-        }
-      },
-      {
         "id": 19568971,
         "sport_id": 1,
         "league_id": 5,
@@ -8572,7 +8490,7 @@
         }
       },
       {
-        "id": 19568999,
+        "id": 19569027,
         "sport_id": 1,
         "league_id": 5,
         "season_id": 25582,
@@ -8581,8 +8499,8 @@
         "aggregate_id": null,
         "round_id": 388963,
         "state_id": 1,
-        "venue_id": 171,
-        "name": "Go Ahead Eagles vs Sporting Braga",
+        "venue_id": 542,
+        "name": "Nottingham Forest vs Ferencvárosi",
         "starting_at": "2026-01-29 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -8595,41 +8513,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 664,
+            "id": 63,
             "sport_id": 1,
-            "country_id": 38,
-            "venue_id": 171,
+            "country_id": 462,
+            "venue_id": 542,
             "gender": "male",
-            "name": "Go Ahead Eagles",
-            "short_code": "GAE",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/664.png",
-            "founded": 1971,
+            "name": "Nottingham Forest",
+            "short_code": "NFO",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/63.png",
+            "founded": 1865,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 15:30:00",
+            "last_played_at": "2026-01-17 17:30:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 33
+              "position": null
             }
           },
           {
-            "id": 884,
+            "id": 112,
             "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 313,
+            "country_id": 674,
+            "venue_id": 6779,
             "gender": "male",
-            "name": "Sporting Braga",
-            "short_code": "SBR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/884.png",
-            "founded": 1921,
+            "name": "Ferencvárosi",
+            "short_code": null,
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
+            "founded": 1899,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 18:00:00",
+            "last_played_at": "2026-01-15 13:00:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 11
+              "position": null
             }
           }
         ],
@@ -8728,99 +8646,6 @@
         "stage": {
           "id": 77478057,
           "sport_id": 1,
-       
-   "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388963,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-29",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19569031,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388963,
-        "state_id": 1,
-        "venue_id": 6161,
-        "name": "Olympique Lyonnais vs PAOK",
-        "starting_at": "2026-01-29 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769716800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 79,
-            "sport_id": 1,
-            "country_id": 17,
-            "venue_id": 6161,
-            "gender": "male",
-            "name": "Olympique Lyonnais",
-            "short_code": "LYO",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/79.png",
-            "founded": 1950,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 19:45:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 23
-            }
-          },
-          {
-            "id": 649,
-            "sport_id": 1,
-            "country_id": 125,
-            "venue_id": 164,
-            "gender": "male",
-            "name": "PAOK",
-            "short_code": null,
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/649.png",
-            "founded": 1926,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 14
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
           "league_id": 5,
           "season_id": 25582,
           "type_id": 223,
@@ -8849,7 +8674,7 @@
         }
       },
       {
-        "id": 19569008,
+        "id": 19568947,
         "sport_id": 1,
         "league_id": 5,
         "season_id": 25582,
@@ -8858,8 +8683,8 @@
         "aggregate_id": null,
         "round_id": 388963,
         "state_id": 1,
-        "venue_id": 184,
-        "name": "LOSC Lille vs SC Freiburg",
+        "venue_id": 9553,
+        "name": "Basel vs Viktoria Plzeň",
         "starting_at": "2026-01-29 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -8872,41 +8697,41 @@
         "scores": [],
         "participants": [
           {
-            "id": 690,
+            "id": 468,
             "sport_id": 1,
-            "country_id": 17,
-            "venue_id": 184,
+            "country_id": 62,
+            "venue_id": 9553,
             "gender": "male",
-            "name": "LOSC Lille",
-            "short_code": "LOSC",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/690.png",
-            "founded": 1944,
+            "name": "Basel",
+            "short_code": "BAS",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/468.png",
+            "founded": 1893,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-16 20:00:00",
+            "last_played_at": "2026-01-18 15:30:00",
             "meta": {
               "location": "home",
               "winner": null,
-              "position": 8
+              "position": null
             }
           },
           {
-            "id": 3543,
+            "id": 3545,
             "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 2063,
+            "country_id": 245,
+            "venue_id": 2067,
             "gender": "male",
-            "name": "SC Freiburg",
-            "short_code": "SCF",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3543.png",
-            "founded": 1904,
+            "name": "Viktoria Plzeň",
+            "short_code": "VPL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3545.png",
+            "founded": 1911,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 16:30:00",
+            "last_played_at": "2026-01-15 14:00:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 25
+              "position": null
             }
           }
         ],
@@ -9125,7 +8950,7 @@
         }
       },
       {
-        "id": 19569076,
+        "id": 19568999,
         "sport_id": 1,
         "league_id": 5,
         "season_id": 25582,
@@ -9134,8 +8959,8 @@
         "aggregate_id": null,
         "round_id": 388963,
         "state_id": 1,
-        "venue_id": 1945,
-        "name": "VfB Stuttgart vs Young Boys",
+        "venue_id": 171,
+        "name": "Go Ahead Eagles vs Sporting Braga",
         "starting_at": "2026-01-29 20:00:00",
         "result_info": null,
         "leg": "1/1",
@@ -9148,225 +8973,225 @@
         "scores": [],
         "participants": [
           {
-            "id": 3319,
+            "id": 664,
+            "sport_id": 1,
+            "country_id": 38,
+            "venue_id": 171,
+            "gender": "male",
+            "name": "Go Ahead Eagles",
+            "short_code": "GAE",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/24/664.png",
+            "founded": 1971,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 33
+            }
+          },
+          {
+            "id": 884,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 313,
+            "gender": "male",
+            "name": "Sporting Braga",
+            "short_code": "SBR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/884.png",
+            "founded": 1921,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 18:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 11
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388963,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-29",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19568966,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388963,
+        "state_id": 1,
+        "venue_id": 165,
+        "name": "Porto vs Rangers",
+        "starting_at": "2026-01-29 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769716800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 652,
+            "sport_id": 1,
+            "country_id": 20,
+            "venue_id": 165,
+            "gender": "male",
+            "name": "Porto",
+            "short_code": "POR",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/652.png",
+            "founded": 1893,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 20:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 5
+            }
+          },
+          {
+            "id": 62,
+            "sport_id": 1,
+            "country_id": 1161,
+            "venue_id": 8914,
+            "gender": "male",
+            "name": "Rangers",
+            "short_code": "RAN",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+            "founded": 1873,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 19:45:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 7
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388963,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-29",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19569008,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388963,
+        "state_id": 1,
+        "venue_id": 184,
+        "name": "LOSC Lille vs SC Freiburg",
+        "starting_at": "2026-01-29 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769716800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 690,
+            "sport_id": 1,
+            "country_id": 17,
+            "venue_id": 184,
+            "gender": "male",
+            "name": "LOSC Lille",
+            "short_code": "LOSC",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/18/690.png",
+            "founded": 1944,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-16 20:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 8
+            }
+          },
+          {
+            "id": 3543,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 1945,
+            "venue_id": 2063,
             "gender": "male",
-            "name": "VfB Stuttgart",
-            "short_code": "VFB",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png",
-            "founded": 1893,
+            "name": "SC Freiburg",
+            "short_code": "SCF",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3543.png",
+            "founded": 1904,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 14:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 31
-            }
-          },
-          {
-            "id": 647,
-            "sport_id": 1,
-            "country_id": 62,
-            "venue_id": 163,
-            "gender": "male",
-            "name": "Young Boys",
-            "short_code": "YBO",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/647.png",
-            "founded": 1898,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:30:00",
+            "last_played_at": "2026-01-18 16:30:00",
             "meta": {
               "location": "away",
               "winner": null,
-              "position": 20
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388963,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-29",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19569027,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388963,
-        "state_id": 1,
-        "venue_id": 542,
-        "name": "Nottingham Forest vs Ferencvárosi",
-        "starting_at": "2026-01-29 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769716800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 63,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 542,
-            "gender": "male",
-            "name": "Nottingham Forest",
-            "short_code": "NFO",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/31/63.png",
-            "founded": 1865,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 17:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 112,
-            "sport_id": 1,
-            "country_id": 674,
-            "venue_id": 6779,
-            "gender": "male",
-            "name": "Ferencvárosi",
-            "short_code": null,
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
-            "founded": 1899,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-15 13:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388963,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-29",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19568947,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388963,
-        "state_id": 1,
-        "venue_id": 9553,
-        "name": "Basel vs Viktoria Plzeň",
-        "starting_at": "2026-01-29 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769716800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 468,
-            "sport_id": 1,
-            "country_id": 62,
-            "venue_id": 9553,
-            "gender": "male",
-            "name": "Basel",
-            "short_code": "BAS",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/20/468.png",
-            "founded": 1893,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 15:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 3545,
-            "sport_id": 1,
-            "country_id": 245,
-            "venue_id": 2067,
-            "gender": "male",
-            "name": "Viktoria Plzeň",
-            "short_code": "VPL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/3545.png",
-            "founded": 1911,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-15 14:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
+              "position": 25
             }
           }
         ],
@@ -9493,6 +9318,282 @@
         }
       },
       {
+        "id": 19569031,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388963,
+        "state_id": 1,
+        "venue_id": 6161,
+        "name": "Olympique Lyonnais vs PAOK",
+        "starting_at": "2026-01-29 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769716800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 79,
+            "sport_id": 1,
+            "country_id": 17,
+            "venue_id": 6161,
+            "gender": "male",
+            "name": "Olympique Lyonnais",
+            "short_code": "LYO",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/79.png",
+            "founded": 1950,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 19:45:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 23
+            }
+          },
+          {
+            "id": 649,
+            "sport_id": 1,
+            "country_id": 125,
+            "venue_id": 164,
+            "gender": "male",
+            "name": "PAOK",
+            "short_code": null,
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/649.png",
+            "founded": 1926,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 14
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388963,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-29",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19569076,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388963,
+        "state_id": 1,
+        "venue_id": 1945,
+        "name": "VfB Stuttgart vs Young Boys",
+        "starting_at": "2026-01-29 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769716800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 3319,
+            "sport_id": 1,
+            "country_id": 11,
+            "venue_id": 1945,
+            "gender": "male",
+            "name": "VfB Stuttgart",
+            "short_code": "VFB",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/3319.png",
+            "founded": 1893,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 14:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": 31
+            }
+          },
+          {
+            "id": 647,
+            "sport_id": 1,
+            "country_id": 62,
+            "venue_id": 163,
+            "gender": "male",
+            "name": "Young Boys",
+            "short_code": "YBO",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/7/647.png",
+            "founded": 1898,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 19:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": 20
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388963,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-29",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19568993,
+        "sport_id": 1,
+        "league_id": 5,
+        "season_id": 25582,
+        "stage_id": 77478057,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 388963,
+        "state_id": 1,
+        "venue_id": 1590,
+        "name": "Crvena Zvezda vs Celta de Vigo",
+        "starting_at": "2026-01-29 20:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": false,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769716800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 2673,
+            "sport_id": 1,
+            "country_id": 296,
+            "venue_id": 1590,
+            "gender": "male",
+            "name": "Crvena Zvezda",
+            "short_code": "CRV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/2673.png",
+            "founded": 1945,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-15 14:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 36,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 9239,
+            "gender": "male",
+            "name": "Celta de Vigo",
+            "short_code": "CEL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
+            "founded": 1923,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77478057,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "type_id": 223,
+          "name": "League Stage",
+          "sort_order": 5,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-09-24",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 388963,
+          "sport_id": 1,
+          "league_id": 5,
+          "season_id": 25582,
+          "stage_id": 77478057,
+          "name": "8",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-29",
+          "ending_at": "2026-01-29",
+          "games_in_current_week": false
+        }
+      },
+      {
         "id": 19569005,
         "sport_id": 1,
         "league_id": 5,
@@ -9551,98 +9652,6 @@
               "location": "away",
               "winner": null,
               "position": 32
-            }
-          }
-        ],
-        "stage": {
-          "id": 77478057,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "type_id": 223,
-          "name": "League Stage",
-          "sort_order": 5,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-09-24",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 388963,
-          "sport_id": 1,
-          "league_id": 5,
-          "season_id": 25582,
-          "stage_id": 77478057,
-          "name": "8",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-29",
-          "ending_at": "2026-01-29",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19568966,
-        "sport_id": 1,
-        "league_id": 5,
-        "season_id": 25582,
-        "stage_id": 77478057,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 388963,
-        "state_id": 1,
-        "venue_id": 165,
-        "name": "Porto vs Rangers",
-        "starting_at": "2026-01-29 20:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769716800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 652,
-            "sport_id": 1,
-            "country_id": 20,
-            "venue_id": 165,
-            "gender": "male",
-            "name": "Porto",
-            "short_code": "POR",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/652.png",
-            "founded": 1893,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 20:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": 5
-            }
-          },
-          {
-            "id": 62,
-            "sport_id": 1,
-            "country_id": 1161,
-            "venue_id": 8914,
-            "gender": "male",
-            "name": "Rangers",
-            "short_code": "RAN",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-            "founded": 1873,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-16 19:45:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": 7
             }
           }
         ],
@@ -9860,6 +9869,7 @@
           "games_in_current_week": false
         }
       }
+    ]
 [
   {
     "id": 564,
@@ -10183,6 +10193,7 @@
           "games_in_current_week": false
         }
       }
+    ]
 [
   {
     "id": 8,
@@ -11059,6 +11070,98 @@
     "has_jerseys": false,
     "today": [
       {
+        "id": 19433653,
+        "sport_id": 1,
+        "league_id": 82,
+        "season_id": 25646,
+        "stage_id": 77476914,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 393438,
+        "state_id": 1,
+        "venue_id": 1618,
+        "name": "TSG Hoffenheim vs FC Union Berlin",
+        "starting_at": "2026-01-31 14:30:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769869800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 2726,
+            "sport_id": 1,
+            "country_id": 11,
+            "venue_id": 1618,
+            "gender": "male",
+            "name": "TSG Hoffenheim",
+            "short_code": "TSG",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/2726.png",
+            "founded": 1899,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 14:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 1079,
+            "sport_id": 1,
+            "country_id": 11,
+            "venue_id": 420,
+            "gender": "male",
+            "name": "FC Union Berlin",
+            "short_code": "FCU",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/1079.png",
+            "founded": 1966,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 14:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476914,
+          "sport_id": 1,
+          "league_id": 82,
+          "season_id": 25646,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-22",
+          "ending_at": "2026-05-16",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 393438,
+          "sport_id": 1,
+          "league_id": 82,
+          "season_id": 25646,
+          "stage_id": 77476914,
+          "name": "20",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-30",
+          "ending_at": "2026-02-01",
+          "games_in_current_week": false
+        }
+      },
+      {
         "id": 19433648,
         "sport_id": 1,
         "league_id": 82,
@@ -11243,98 +11346,6 @@
         }
       },
       {
-        "id": 19433649,
-        "sport_id": 1,
-        "league_id": 82,
-        "season_id": 25646,
-        "stage_id": 77476914,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 393438,
-        "state_id": 1,
-        "venue_id": 2165,
-        "name": "FC Augsburg vs St. Pauli",
-        "starting_at": "2026-01-31 14:30:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769869800,
-        "scores": [],
-        "participants": [
-          {
-            "id": 90,
-            "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 2165,
-            "gender": "male",
-            "name": "FC Augsburg",
-            "short_code": "FCA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png",
-            "founded": 1907,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 16:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 353,
-            "sport_id": 1,
-            "country_id": 11,
-            "venue_id": 2110,
-            "gender": "male",
-            "name": "St. Pauli",
-            "short_code": "PAU",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/353.png",
-            "founded": 1910,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 14:30:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476914,
-          "sport_id": 1,
-          "league_id": 82,
-          "season_id": 25646,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-22",
-          "ending_at": "2026-05-16",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 393438,
-          "sport_id": 1,
-          "league_id": 82,
-          "season_id": 25646,
-          "stage_id": 77476914,
-          "name": "20",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-30",
-          "ending_at": "2026-02-01",
-          "games_in_current_week": false
-        }
-      },
-      {
         "id": 19433652,
         "sport_id": 1,
         "league_id": 82,
@@ -11427,7 +11438,7 @@
         }
       },
       {
-        "id": 19433653,
+        "id": 19433649,
         "sport_id": 1,
         "league_id": 82,
         "season_id": 25646,
@@ -11436,8 +11447,8 @@
         "aggregate_id": null,
         "round_id": 393438,
         "state_id": 1,
-        "venue_id": 1618,
-        "name": "TSG Hoffenheim vs FC Union Berlin",
+        "venue_id": 2165,
+        "name": "FC Augsburg vs St. Pauli",
         "starting_at": "2026-01-31 14:30:00",
         "result_info": null,
         "leg": "1/1",
@@ -11450,18 +11461,18 @@
         "scores": [],
         "participants": [
           {
-            "id": 2726,
+            "id": 90,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 1618,
+            "venue_id": 2165,
             "gender": "male",
-            "name": "TSG Hoffenheim",
-            "short_code": "TSG",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/2726.png",
-            "founded": 1899,
+            "name": "FC Augsburg",
+            "short_code": "FCA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/26/90.png",
+            "founded": 1907,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-17 14:30:00",
+            "last_played_at": "2026-01-18 16:30:00",
             "meta": {
               "location": "home",
               "winner": null,
@@ -11469,18 +11480,18 @@
             }
           },
           {
-            "id": 1079,
+            "id": 353,
             "sport_id": 1,
             "country_id": 11,
-            "venue_id": 420,
+            "venue_id": 2110,
             "gender": "male",
-            "name": "FC Union Berlin",
-            "short_code": "FCU",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/23/1079.png",
-            "founded": 1966,
+            "name": "St. Pauli",
+            "short_code": "PAU",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/1/353.png",
+            "founded": 1910,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-18 14:30:00",
+            "last_played_at": "2026-01-17 14:30:00",
             "meta": {
               "location": "away",
               "winner": null,
@@ -11902,6 +11913,7 @@
           "games_in_current_week": false
         }
       }
+    ]
 [
   {
     "id": 8,
@@ -11917,98 +11929,6 @@
     "category": 1,
     "has_jerseys": false,
     "today": [
-      {
-        "id": 19427694,
-        "sport_id": 1,
-        "league_id": 8,
-        "season_id": 25583,
-        "stage_id": 77476879,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 372218,
-        "state_id": 1,
-        "venue_id": 281313,
-        "name": "Tottenham Hotspur vs Manchester City",
-        "starting_at": "2026-02-01 16:30:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769963400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 9,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 151,
-            "gender": "male",
-            "name": "Manchester City",
-            "short_code": "MCI",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
-            "founded": 1880,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 17:45:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 6,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 281313,
-            "gender": "male",
-            "name": "Tottenham Hotspur",
-            "short_code": "TOT",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
-            "founded": 1882,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476879,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-15",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 372218,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "stage_id": 77476879,
-          "name": "24",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-31",
-          "ending_at": "2026-02-02",
-          "games_in_current_week": false
-        }
-      },
       {
         "id": 19427691,
         "sport_id": 1,
@@ -12061,98 +11981,6 @@
             "short_code": "FUL",
             "image_path": "https://cdn.sportmonks.com/images/soccer/teams/11/11.png",
             "founded": 1879,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 15:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476879,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-15",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 372218,
-          "sport_id": 1,
-          "league_id": 8,
-          "season_id": 25583,
-          "stage_id": 77476879,
-          "name": "24",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-31",
-          "ending_at": "2026-02-02",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19427686,
-        "sport_id": 1,
-        "league_id": 8,
-        "season_id": 25583,
-        "stage_id": 77476879,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 372218,
-        "state_id": 1,
-        "venue_id": 5,
-        "name": "Aston Villa vs Brentford",
-        "starting_at": "2026-02-01 14:00:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769954400,
-        "scores": [],
-        "participants": [
-          {
-            "id": 15,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 5,
-            "gender": "male",
-            "name": "Aston Villa",
-            "short_code": "AVL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
-            "founded": 1874,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 16:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 236,
-            "sport_id": 1,
-            "country_id": 462,
-            "venue_id": 338817,
-            "gender": "male",
-            "name": "Brentford",
-            "short_code": "BRE",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/236.png",
-            "founded": 1889,
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-17 15:00:00",
@@ -12284,6 +12112,190 @@
           "ending_at": "2026-02-02",
           "games_in_current_week": false
         }
+      },
+      {
+        "id": 19427686,
+        "sport_id": 1,
+        "league_id": 8,
+        "season_id": 25583,
+        "stage_id": 77476879,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 372218,
+        "state_id": 1,
+        "venue_id": 5,
+        "name": "Aston Villa vs Brentford",
+        "starting_at": "2026-02-01 14:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769954400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 15,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 5,
+            "gender": "male",
+            "name": "Aston Villa",
+            "short_code": "AVL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/15/15.png",
+            "founded": 1874,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 16:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 236,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 338817,
+            "gender": "male",
+            "name": "Brentford",
+            "short_code": "BRE",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/236.png",
+            "founded": 1889,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 15:00:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476879,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-15",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 372218,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "stage_id": 77476879,
+          "name": "24",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-31",
+          "ending_at": "2026-02-02",
+          "games_in_current_week": false
+        }
+      },
+      {
+        "id": 19427694,
+        "sport_id": 1,
+        "league_id": 8,
+        "season_id": 25583,
+        "stage_id": 77476879,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 372218,
+        "state_id": 1,
+        "venue_id": 281313,
+        "name": "Tottenham Hotspur vs Manchester City",
+        "starting_at": "2026-02-01 16:30:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769963400,
+        "scores": [],
+        "participants": [
+          {
+            "id": 9,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 151,
+            "gender": "male",
+            "name": "Manchester City",
+            "short_code": "MCI",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+            "founded": 1880,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 17:45:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 6,
+            "sport_id": 1,
+            "country_id": 462,
+            "venue_id": 281313,
+            "gender": "male",
+            "name": "Tottenham Hotspur",
+            "short_code": "TOT",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+            "founded": 1882,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476879,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-15",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 372218,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 25583,
+          "stage_id": 77476879,
+          "name": "24",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-31",
+          "ending_at": "2026-02-02",
+          "games_in_current_week": false
+        }
       }
     ]
   },
@@ -12301,6 +12313,98 @@
     "category": 1,
     "has_jerseys": false,
     "today": [
+      {
+        "id": 19439468,
+        "sport_id": 1,
+        "league_id": 564,
+        "season_id": 25659,
+        "stage_id": 77476930,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 373231,
+        "state_id": 1,
+        "venue_id": 2020,
+        "name": "Real Madrid vs Rayo Vallecano",
+        "starting_at": "2026-02-01 13:00:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769950800,
+        "scores": [],
+        "participants": [
+          {
+            "id": 3468,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 2020,
+            "gender": "male",
+            "name": "Real Madrid",
+            "short_code": "RMA",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png",
+            "founded": 1902,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-20 20:00:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 377,
+            "sport_id": 1,
+            "country_id": 32,
+            "venue_id": 304396,
+            "gender": "male",
+            "name": "Rayo Vallecano",
+            "short_code": "RAY",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/377.png",
+            "founded": 1924,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 17:30:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476930,
+          "sport_id": 1,
+          "league_id": 564,
+          "season_id": 25659,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-15",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 373231,
+          "sport_id": 1,
+          "league_id": 564,
+          "season_id": 25659,
+          "stage_id": 77476930,
+          "name": "22",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-30",
+          "ending_at": "2026-02-02",
+          "games_in_current_week": false
+        }
+      },
       {
         "id": 19439467,
         "sport_id": 1,
@@ -12394,7 +12498,7 @@
         }
       },
       {
-        "id": 19439468,
+        "id": 19439463,
         "sport_id": 1,
         "league_id": 564,
         "season_id": 25659,
@@ -12403,9 +12507,9 @@
         "aggregate_id": null,
         "round_id": 373231,
         "state_id": 1,
-        "venue_id": 2020,
-        "name": "Real Madrid vs Rayo Vallecano",
-        "starting_at": "2026-02-01 13:00:00",
+        "venue_id": 9351,
+        "name": "Getafe vs Celta de Vigo",
+        "starting_at": "2026-02-01 17:30:00",
         "result_info": null,
         "leg": "1/1",
         "details": null,
@@ -12413,22 +12517,22 @@
         "placeholder": false,
         "has_odds": true,
         "has_premium_odds": true,
-        "starting_at_timestamp": 1769950800,
+        "starting_at_timestamp": 1769967000,
         "scores": [],
         "participants": [
           {
-            "id": 3468,
+            "id": 106,
             "sport_id": 1,
             "country_id": 32,
-            "venue_id": 2020,
+            "venue_id": 9351,
             "gender": "male",
-            "name": "Real Madrid",
-            "short_code": "RMA",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/12/3468.png",
-            "founded": 1902,
+            "name": "Getafe",
+            "short_code": "GET",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/106.png",
+            "founded": 1983,
             "type": "domestic",
             "placeholder": false,
-            "last_played_at": "2026-01-20 20:00:00",
+            "last_played_at": "2026-01-18 13:00:00",
             "meta": {
               "location": "home",
               "winner": null,
@@ -12436,15 +12540,15 @@
             }
           },
           {
-            "id": 377,
+            "id": 36,
             "sport_id": 1,
             "country_id": 32,
-            "venue_id": 304396,
+            "venue_id": 9239,
             "gender": "male",
-            "name": "Rayo Vallecano",
-            "short_code": "RAY",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/25/377.png",
-            "founded": 1924,
+            "name": "Celta de Vigo",
+            "short_code": "CEL",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
+            "founded": 1923,
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-18 17:30:00",
@@ -12540,98 +12644,6 @@
             "type": "domestic",
             "placeholder": false,
             "last_played_at": "2026-01-18 20:00:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476930,
-          "sport_id": 1,
-          "league_id": 564,
-          "season_id": 25659,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-15",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 373231,
-          "sport_id": 1,
-          "league_id": 564,
-          "season_id": 25659,
-          "stage_id": 77476930,
-          "name": "22",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-30",
-          "ending_at": "2026-02-02",
-          "games_in_current_week": false
-        }
-      },
-      {
-        "id": 19439463,
-        "sport_id": 1,
-        "league_id": 564,
-        "season_id": 25659,
-        "stage_id": 77476930,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 373231,
-        "state_id": 1,
-        "venue_id": 9351,
-        "name": "Getafe vs Celta de Vigo",
-        "starting_at": "2026-02-01 17:30:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769967000,
-        "scores": [],
-        "participants": [
-          {
-            "id": 106,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9351,
-            "gender": "male",
-            "name": "Getafe",
-            "short_code": "GET",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/10/106.png",
-            "founded": 1983,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 13:00:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 36,
-            "sport_id": 1,
-            "country_id": 32,
-            "venue_id": 9239,
-            "gender": "male",
-            "name": "Celta de Vigo",
-            "short_code": "CEL",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
-            "founded": 1923,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 17:30:00",
             "meta": {
               "location": "away",
               "winner": null,
@@ -13070,98 +13082,6 @@
         }
       },
       {
-        "id": 19425107,
-        "sport_id": 1,
-        "league_id": 384,
-        "season_id": 25533,
-        "stage_id": 77476851,
-        "group_id": null,
-        "aggregate_id": null,
-        "round_id": 371871,
-        "state_id": 1,
-        "venue_id": 7175,
-        "name": "Parma vs Juventus",
-        "starting_at": "2026-02-01 19:45:00",
-        "result_info": null,
-        "leg": "1/1",
-        "details": null,
-        "length": 90,
-        "placeholder": false,
-        "has_odds": true,
-        "has_premium_odds": true,
-        "starting_at_timestamp": 1769975100,
-        "scores": [],
-        "participants": [
-          {
-            "id": 398,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 7175,
-            "gender": "male",
-            "name": "Parma",
-            "short_code": "PRM",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/398.png",
-            "founded": 1913,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-18 11:30:00",
-            "meta": {
-              "location": "home",
-              "winner": null,
-              "position": null
-            }
-          },
-          {
-            "id": 625,
-            "sport_id": 1,
-            "country_id": 251,
-            "venue_id": 14742,
-            "gender": "male",
-            "name": "Juventus",
-            "short_code": "JUV",
-            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
-            "founded": 1897,
-            "type": "domestic",
-            "placeholder": false,
-            "last_played_at": "2026-01-17 19:45:00",
-            "meta": {
-              "location": "away",
-              "winner": null,
-              "position": null
-            }
-          }
-        ],
-        "stage": {
-          "id": 77476851,
-          "sport_id": 1,
-          "league_id": 384,
-          "season_id": 25533,
-          "type_id": 223,
-          "name": "Regular Season",
-          "sort_order": 1,
-          "finished": false,
-          "is_current": true,
-          "starting_at": "2025-08-23",
-          "ending_at": "2026-05-24",
-          "games_in_current_week": false,
-          "tie_breaker_rule_id": null
-        },
-        "group": null,
-        "round": {
-          "id": 371871,
-          "sport_id": 1,
-          "league_id": 384,
-          "season_id": 25533,
-          "stage_id": 77476851,
-          "name": "23",
-          "finished": false,
-          "is_current": false,
-          "starting_at": "2026-01-30",
-          "ending_at": "2026-02-03",
-          "games_in_current_week": false
-        }
-      },
-      {
         "id": 19425104,
         "sport_id": 1,
         "league_id": 384,
@@ -13252,4 +13172,97 @@
           "ending_at": "2026-02-03",
           "games_in_current_week": false
         }
+      },
+      {
+        "id": 19425107,
+        "sport_id": 1,
+        "league_id": 384,
+        "season_id": 25533,
+        "stage_id": 77476851,
+        "group_id": null,
+        "aggregate_id": null,
+        "round_id": 371871,
+        "state_id": 1,
+        "venue_id": 7175,
+        "name": "Parma vs Juventus",
+        "starting_at": "2026-02-01 19:45:00",
+        "result_info": null,
+        "leg": "1/1",
+        "details": null,
+        "length": 90,
+        "placeholder": false,
+        "has_odds": true,
+        "has_premium_odds": true,
+        "starting_at_timestamp": 1769975100,
+        "scores": [],
+        "participants": [
+          {
+            "id": 398,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 7175,
+            "gender": "male",
+            "name": "Parma",
+            "short_code": "PRM",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/14/398.png",
+            "founded": 1913,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-18 11:30:00",
+            "meta": {
+              "location": "home",
+              "winner": null,
+              "position": null
+            }
+          },
+          {
+            "id": 625,
+            "sport_id": 1,
+            "country_id": 251,
+            "venue_id": 14742,
+            "gender": "male",
+            "name": "Juventus",
+            "short_code": "JUV",
+            "image_path": "https://cdn.sportmonks.com/images/soccer/teams/17/625.png",
+            "founded": 1897,
+            "type": "domestic",
+            "placeholder": false,
+            "last_played_at": "2026-01-17 19:45:00",
+            "meta": {
+              "location": "away",
+              "winner": null,
+              "position": null
+            }
+          }
+        ],
+        "stage": {
+          "id": 77476851,
+          "sport_id": 1,
+          "league_id": 384,
+          "season_id": 25533,
+          "type_id": 223,
+          "name": "Regular Season",
+          "sort_order": 1,
+          "finished": false,
+          "is_current": true,
+          "starting_at": "2025-08-23",
+          "ending_at": "2026-05-24",
+          "games_in_current_week": false,
+          "tie_breaker_rule_id": null
+        },
+        "group": null,
+        "round": {
+          "id": 371871,
+          "sport_id": 1,
+          "league_id": 384,
+          "season_id": 25533,
+          "stage_id": 77476851,
+          "name": "23",
+          "finished": false,
+          "is_current": false,
+          "starting_at": "2026-01-30",
+          "ending_at": "2026-02-03",
+          "games_in_current_week": false
+        }
       }
+    ]
