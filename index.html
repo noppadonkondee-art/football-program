@@ -1,38 +1,84 @@
-[
-  {
-    "name": "Premier League",
-    "matches": [
-      {
-        "date": "2026-01-22",
-        "time": "19:30",
-        "home_team": "Man Utd",
-        "away_team": "Liverpool",
-        "streamUrl": "..."
-      },
-      { ...แมตช์อื่นๆ... }
-    ]
-  },
-  {
-    "name": "La Liga",
-    "matches": [
-      {
-        "date": "2026-01-22",
-        "time": "22:00",
-        "home_team": "Real Madrid",
-        "away_team": "Barcelona"
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Football Mini App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<style>
+body {
+  margin:0;
+  padding:12px;
+  font-family: Arial, sans-serif;
+  background:#0f172a;
+  color:#fff;
+}
+.league {
+  margin-bottom:16px;
+}
+.league h3 {
+  margin:0 0 8px;
+  color:#38bdf8;
+}
+.match {
+  background:#1e293b;
+  padding:10px;
+  border-radius:10px;
+  margin-bottom:8px;
+}
+.time {
+  font-size:13px;
+  color:#facc15;
+}
+.teams {
+  font-size:15px;
+  margin-top:4px;
+}
+.empty {
+  color:#94a3b8;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>⚽ โปรแกรมบอลวันนี้</h2>
+<div id="app"></div>
+
+<script>
+const tg = window.Telegram.WebApp;
+tg.expand();
+
+fetch('https://username.github.io/repo-name/matches.json')
+  .then(res => res.json())
+  .then(data => {
+    const app = document.getElementById('app');
+
+    data.forEach(league => {
+      const section = document.createElement('div');
+      section.className = 'league';
+
+      section.innerHTML = `<h3>${league.name}</h3>`;
+
+      if (!league.matches || league.matches.length === 0) {
+        section.innerHTML += `<div class="empty">ยังไม่มีโปรแกรม</div>`;
+      } else {
+        league.matches.forEach(m => {
+          section.innerHTML += `
+            <div class="match">
+              <div class="time">📅 ${m.date} ⏰ ${m.time}</div>
+              <div class="teams">${m.home_team} vs ${m.away_team}</div>
+            </div>
+          `;
+        });
       }
-    ]
-  },
-  {
-    "name": "Bundesliga",
-    "matches": []
-  },
-  {
-    "name": "Serie A",
-    "matches": []
-  },
-  {
-    "name": "Ligue 1",
-    "matches": []
-  }
-]
+
+      app.appendChild(section);
+    });
+  });
+</script>
+
+</body>
+</html>
